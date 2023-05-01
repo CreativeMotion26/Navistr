@@ -15,7 +15,7 @@
             <div class="container py-5">
             <div class="PageWidth PageWidth--large relative" style="--mobileContainerHeight:150px; --desktopContainerHeight:120px;">
             <div class="media absolute inset-0 flex justify-center items-center"></div><div class="textContentContainer w-full max-w-full justify-center">
-                <div class="textContent-cover textContent-background py-16 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
+                <div class="textContent-cover textContent-background py-8 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
                 <h4 class="text-orange-500 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
                 <h1 class="text-4xl md:text-5xl font-bold mb-4">About Florentine</h1>
                 <div class="ProductDetailsUniversal-cta--container">
@@ -165,17 +165,22 @@
                     <h3 class = "pt-3 flex align-center justify-center">Sleek Leather Tote</h3>
                     <p class = " flex align-center justify-center">$299.99</p>
                 </div>
-                <div class = "rounded-xl">
+                <div>
                     <img  class = "rounded-xl" src="/assets/images/item5.jpg" alt="" loading = "lazy">
                     <h3 class = "pt-3 flex align-center justify-center"> Bortoletti Writing Set</h3>
                     <p class = " flex align-center justify-center">$99.99</p>
                 </div>
-                <div class = "rounded-xl">
+                <div>
                     <img class = "rounded-xl"  src="/assets/images/item6.jpg" alt="" loading = "lazy">
                     <h3 class = "pt-3 flex align-center justify-center" >Bortoletti Writing Set</h3>
                     <p class = " flex align-center justify-center">$199.99</p>
                 </div>
-                <div class="row-start-1 col-start-2 col-span-2 rounded-xl w-1/3  flex flex-col">
+               <div class = "w-1/3  flex flex-col">
+                    <img class = "rounded-xl"  src="/assets/images/item7.jpg" alt="" loading = "lazy">
+                    <h3 class = "pt-3 flex align-center justify-center">Bortoletti Fountain Pen Set</h3>
+                    <p class = " flex align-center justify-center">$149.99</p>
+                </div>
+                <div class = "w-1/3  flex flex-col">
                     <img class = "rounded-xl"  src="/assets/images/item7.jpg" alt="" loading = "lazy">
                     <h3 class = "pt-3 flex align-center justify-center">Bortoletti Fountain Pen Set</h3>
                     <p class = " flex align-center justify-center">$149.99</p>
