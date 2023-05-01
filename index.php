@@ -6,8 +6,7 @@
     </head>
     <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
         <?php require __DIR__ . '/inc/header.inc.php';?>
-        <section style="background-image: url('/assets/images/Main.jpg')" class="flex align-center justify-center flex-col h-[60vh] bg-cover bg-center bg-no-repeat bg-contain text-center text-white bg-gradient-to-t from-black/75 via-black/0 ">
-            <div class="absolute inset-0 bg-black opacity-50"></div>
+        <section style="background-image: url('/assets/images/Main.jpg')" class="flex align-center justify-center flex-col h-[60vh] bg-cover bg-center bg-no-repeat bg-contain text-center text-white bg-gradient-to-t from-black/75 via-black/0 "
             <h1 class="font-bold text-5xl">Discover Fine Leather Goods from Italy</h1>
             <p class="mt-1 text-orange-200">Explore our collection of handcrafted leather bags and luxury writing sets made in Venice.</p>
             <a href="/category/bags" class="flex bg-orange-600 w-fit center mx-auto px-4 py-1 rounded-xl mt-4">Browse Bags</a>
