@@ -1,4 +1,4 @@
-<header class="bg-white sticky top-0 z-100 flex items-center justify-between bg-white">
+<header class="bg-white sticky top-0 z-0 flex items-center justify-between bg-white">
     <img src="assets/images/logo.png" alt="Florentine Logo" class="max-h-20 p-2">
     <nav>
         <ul class="flex justify-between align-center">
