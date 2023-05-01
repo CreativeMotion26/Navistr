@@ -11,7 +11,7 @@
             <p class="mt-1 text-orange-200">Explore our collection of handcrafted leather bags and luxury writing sets made in Venice.</p>
             <a href="/category/bags" class="flex bg-orange-600 w-fit center mx-auto px-4 py-1 rounded-xl mt-4">Browse Bags</a>
         </section>
-        <section class="py-0 container mx-auto bg-white py-8 border-t border-gray-400">
+        <section class="py-0 container mx-auto bg-white py-4 border-t border-gray-400">
             <div class="container py-5">
             <div class="PageWidth PageWidth--large relative" style="--mobileContainerHeight:150px; --desktopContainerHeight:120px;">
             <div class="media absolute inset-0 flex justify-center items-center"></div><div class="textContentContainer z-10 w-full max-w-full justify-center">
@@ -26,7 +26,7 @@
             </div>
             </div>
         </section>
-        <section class="py-0 container mx-auto bg-white py-8 border-t border-orange-400">
+        <section class="py-0 container mx-auto bg-white py-4 border-t border-orange-400">
             <div class="ProductDetailsUniversal-container ProductDetailsUniversal--mobile py-8">
             <div class="PageWidth ProductDetailsUniversal ProductDetailsUniversal--noBackgroundContainer PageWidth--large relative" style="--mobileContainerHeight:150px; --desktopContainerHeight:120px;">
             <div class="ProductDetailsUniversal-media absolute inset-0 flex justify-center items-center"></div><div class="ProductDetailsUniversal-textContentContainer z-10 w-full max-w-full justify-center">
