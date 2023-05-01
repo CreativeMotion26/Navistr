@@ -1,12 +1,11 @@
 <?php require __DIR__ . '/inc/functions.inc.php';?>
 <!DOCTYPE html>
 <html lang="en"> 
-    <head> test 
+    <head>
         <?php require __DIR__ . '/inc/head.inc.php';?>
     </head>
     <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
         <?php require __DIR__ . '/inc/header.inc.php';?>
-    <h1>TESTTESTTESTTEST</h1>
         <section style="background-image: url('assets/images/Main.jpg')" class="flex align-center justify-center flex-col h-[60vh] bg-cover bg-center bg-no-repeat bg-contain text-center text-white bg-gradient-to-t from-black/75 via-black/0 ">
             <h1 class="font-bold text-5xl">Discover Fine Leather Goods from Italy</h1>
             <p class="mt-1 text-orange-200">Explore our collection of handcrafted leather bags and luxury writing sets made in Venice.</p>
