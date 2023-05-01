@@ -1,0 +1,16 @@
+<?php
+$settings = json_decode(file_get_contents(__DIR__ . '/../db/settings.json'), true);
+
+$database = [
+    'host' => '185.252.233.213',
+    'user' => 'YwUetX47DLgkXyCs',
+    'password' => 'Vj8Xpc_vqNj9DM.88d',
+    'database' => 'starfiles',
+];
+
+$conn = mysqli_connect($database['host'], $database['user'], $database['password'], $database['database']);
+
+if(!$conn)
+    die("Connection failed: " . mysqli_connect_error());
+
+$result = mysqli_query($conn, "SELECT * FROM users WHERE LIMIT 1");
