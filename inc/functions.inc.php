@@ -12,5 +12,3 @@ $conn = mysqli_connect($database['host'], $database['user'], $database['password
 
 if(!$conn)
     die("Connection failed: " . mysqli_connect_error());
-
-$result = mysqli_query($conn, "SELECT * FROM users WHERE LIMIT 1");
