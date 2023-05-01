@@ -5,8 +5,11 @@ error_reporting(E_ALL);
 $logging_in = true;
 require_once __DIR__ . '/inc/functions.inc.php';
 if(!empty($_POST)){
-    $result = mysqli_query($conn, "SELECT * FROM users");
-    die(var_export(mysqli_fetch_assoc($result), true));
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $password = hash('sha256', mysqli_real_escape_string($conn, $_POST['password']));
+    $result = mysqli_query($conn, "SELECT * FROM users WHERE email='$email' AND password='$password'");
+    var_dump(mysqli_num_rows($result));
+    die;
 }
 ?>
 <!DOCTYPE html>
