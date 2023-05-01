@@ -2,9 +2,8 @@
 $logging_in = true;
 require_once __DIR__ . '/inc/functions.inc.php';
 if(!empty($_POST)){
-    die;
-    $result = mysqli_query(mysqli_fetch_assoc($conn), "SELECT * FROM users WHERE LIMIT 1");
-    die(var_export($result, true));
+    $result = mysqli_query($conn, "SELECT * FROM users WHERE LIMIT 1");
+    die(var_export(mysqli_fetch_assoc($result), true));
 }
 ?>
 <!DOCTYPE html>

@@ -81,7 +81,7 @@
                     src="assets/images/item5.jpg"
                     alt="30W Power Adapter"/>
                     <img class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 transition-opacity duration-300"
-                    src="assets/items/item6.jpg"
+                    src="assets/images/item6.jpg"
                     alt="30W Power Adapter"/>
                 </div>
                 </a>
@@ -108,10 +108,10 @@
                 </a>
                 <div class="p-4">
                 <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <h1 class="text-lg font-semibold">Rugged Case</h1>
+                    <h1 class="text-lg font-semibold align-center">Rugged Case</h1>
                 </a>
                 <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <p class="text-gray-500">iPhone 14 Series</p>
+                    <p class="text-gray-500 al">iPhone 14 Series</p>
                 </a>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                 <div class="ProductDetailsUniversal-textContent ProductDetailsUniversal-textContent-cover ProductDetailsUniversal-textContent-background py-16 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
                 <h4 class="text-gray-500 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
                 <h1 class="text-4xl md:text-5xl font-bold mb-4">Florentine Product</h1>
-                <div class="ProductDetailsUniversal-cta--container">
+                <div class="cta--container">
 
                 </div>
             </div>
