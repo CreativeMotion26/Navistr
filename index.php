@@ -73,70 +73,39 @@
             </div>
         </section>
         <section>       
-        <div class="grid grid-cols-3 gap-4">
-            <div class="order-1">
-                <a href="/products/ac-adapter-30w-transparent-usb-c">
-                <div class="relative">
-                    <img class="w-full h-full object-cover"
-                    src="assets/images/item5.jpg"
-                    alt="30W Power Adapter"/>
-                    <img class="w-full h-full object-cover top-0 left-0 opacity-0 hover:opacity-100 transition-opacity duration-300"
-                    src="assets/items/item6.jpg"
-                    alt="30W Power Adapter"/>
-                </div>
+        <div class="CollectionProductList">
+          <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+              <div class="relative">
+                <a class="block" href="/products/ac-adapter-30w-transparent-usb-c" aria-label="link to ac-adapter-30w-transparent-usb-c">
+                  <div class="aspect-w-1 aspect-h-1">
+                    <img class="object-cover object-center rounded-lg shadow-md"
+                         src="https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_3840,h_3840/https://f.shgcdn.com/fae63eae-ea42-4989-b501-7ed54deab4ee/"
+                         alt="" loading="lazy">
+                  </div>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 font-semibold text-base">30W Power Adapter</h2>
+                    <p class="mt-1 text-gray-600 text-sm">USB-C | GaN Technology</p>
+                  </div>
                 </a>
-                <div class="p-4">
-                <a href="/products/ac-adapter-30w-transparent-usb-c">
-                    <h1 class="text-lg font-semibold">30W Power Adapter</h1>
+              </div>
+              <div class="relative">
+                <a class="block" href="/products/rugged-case-ash-green-iphone-14-pro-max" aria-label="link to rugged-case-ash-green-iphone-14-pro-max">
+                  <div class="aspect-w-1 aspect-h-1">
+                    <img class="object-cover object-center rounded-lg shadow-md"
+                         src="https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_3840,h_3840/https://f.shgcdn.com/195d5b3f-a923-4d8d-8544-5690dc5978be/"
+                         alt="" loading="lazy">
+                  </div>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 font-semibold text-base">Rugged Case</h2>
+                    <p class="mt-1 text-gray-600 text-sm">iPhone 14 Series</p>
+                  </div>
                 </a>
-                <a href="/products/ac-adapter-30w-transparent-usb-c">
-                    <p class="text-gray-500">USB-C | GaN Technology</p>
-                </a>
-                </div>
+              </div>
             </div>
-            <div class="order-2">
-                <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                <div class="relative">
-                    <img class="w-full h-full object-cover"
-                    src="https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_3840,h_3840/https://f.shgcdn.com/195d5b3f-a923-4d8d-8544-5690dc5978be/"
-                    alt="Rugged Case"/>
-                    <img
-                    class="w-full h-full object-cover top-0 left-0 opacity-0 hover:opacity-100 transition-opacity duration-300"
-                    src="https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_3840,h_3840/https://f.shgcdn.com/7b6bf555-3945-479c-9567-67632494555d/"
-                    alt="Rugged Case"/>
-                </div>
-                </a>
-                <div class="p-4">
-                <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <h1 class="text-lg font-semibold">Rugged Case</h1>
-                </a>
-                <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <p class="text-gray-500">iPhone 14 Series</p>
-                </a>
-                </div>
-            </div>
-            <div class="order-2">
-                <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                <div class="relative">
-                    <img class="w-full h-full object-cover"
-                    src="https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_3840,h_3840/https://f.shgcdn.com/195d5b3f-a923-4d8d-8544-5690dc5978be/"
-                    alt="Rugged Case"/>
-                    <img
-                    class="w-full h-full object-cover top-0 left-0 opacity-0 hover:opacity-100 transition-opacity duration-300"
-                    src="https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_3840,h_3840/https://f.shgcdn.com/7b6bf555-3945-479c-9567-67632494555d/"
-                    alt="Rugged Case"/>
-                </div>
-                </a>
-                <div class="p-4">
-                <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <h1 class="text-lg font-semibold">Rugged Case</h1>
-                </a>
-                <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <p class="text-gray-500">iPhone 14 Series</p>
-                </a>
-                </div>
-            </div>
-            </div>
+          </div>
+        </div>
+
         </section>
         <main class = "container mx-auto bg-white py-8 border-t border-gray-400">
         <section class="py-0">
