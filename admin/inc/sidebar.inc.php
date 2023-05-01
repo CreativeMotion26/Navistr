@@ -59,7 +59,7 @@
 <div class="p-4 sm:ml-64">
     <li>
         <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-            <img src="assets\images\WhatsApp Image 2023-05-01 at 21.43.36.jpg" class="h-6 w-6 flex-shrink-0">
+            <img src="assets\images\WhatsApp Image 2023-05-01 at 21.43.36.jpg" class="h-400 w-400 flex-shrink-0">
             
         </a>
     </li>
