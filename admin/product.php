@@ -19,7 +19,10 @@
                 
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
-                    <button>Delete</button><button>Edit</button>
+                    <div class="flex justify-between">
+                    <button class="text-Blue-500">Edit</button>
+                    <button class="text-red-500">Delete</button>
+                    </div>
                 </div>
                 
                 
