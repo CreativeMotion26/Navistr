@@ -8,8 +8,10 @@ if(!empty($_POST)){
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $password = hash('sha256', mysqli_real_escape_string($conn, $_POST['password']));
     $result = mysqli_query($conn, "SELECT * FROM users WHERE email='$email' AND password='$password'");
-    $_SESSION['admin'] = true;
-    header('Location: /admin');
+    if(mysqli_num_rows($result)){
+        $_SESSION['admin'] = true;
+        header('Location: /admin');
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -27,6 +29,9 @@ if(!empty($_POST)){
                     <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                         Sign in to your account
                     </h1>
+                    <?php if(!empty($_POST)){?>
+                        <p class="text-red-500">Incorrect email or password.</p>
+                    <?php }?>
                     <form class="space-y-4 md:space-y-6" action="?" method="POST">
                         <div>
                             <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
