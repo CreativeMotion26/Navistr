@@ -58,7 +58,7 @@
 
 <div class="p-4 sm:ml-64">
     <li>
-        <!--<a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">-->
+        <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
             <img src="assets\images\adminImage.jpg" class="max-h-[30vh] flex-shrink-0">
             
         </a>
