@@ -16,12 +16,11 @@
         </div>
         <div class="p-4 sm:ml-64">
             <div class="grid grid-cols-5 sm:grid-cols-5 gap-5">
-                <button>
+                
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
-                    <button>Delete</button><button>Edit</button>
                 </div>
-                </button>
+                
                 
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
