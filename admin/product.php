@@ -20,44 +20,80 @@
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
                     <div class="flex justify-between">
-                    <button class="text-Blue-500">Edit</button>
-                    <button class="text-red-500">Delete</button>
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
                     </div>
                 </div>
                 
                 
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+                    <div class="flex justify-between">
+                        <button class="text-Blue-500">Edit</button>
+                        <button class="text-Red-500">Delete</button>
+                    </div>
                 </div>
             </div>
         </div>
