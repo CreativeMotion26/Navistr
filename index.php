@@ -175,13 +175,13 @@
                     <h3 class = "pt-3 flex align-center justify-center" >Bortoletti Writing Set</h3>
                     <p class = " flex align-center justify-center">$199.99</p>
                 </div>
-               <div class = "w-1/3  flex flex-col">
-                    <img class = "rounded-xl"  src="/assets/images/item7.jpg" alt="" loading = "lazy">
+               <div>
+                    <img class = "rounded-xl"  src="/assets/images/item3.jpg" alt="" loading = "lazy">
                     <h3 class = "pt-3 flex align-center justify-center">Bortoletti Fountain Pen Set</h3>
                     <p class = " flex align-center justify-center">$149.99</p>
                 </div>
-                <div class = "w-1/3  flex flex-col">
-                    <img class = "rounded-xl"  src="/assets/images/item7.jpg" alt="" loading = "lazy">
+                <div>
+                    <img class = "rounded-xl"  src="/assets/images/item4.jpg" alt="" loading = "lazy">
                     <h3 class = "pt-3 flex align-center justify-center">Bortoletti Fountain Pen Set</h3>
                     <p class = " flex align-center justify-center">$149.99</p>
                 </div>
