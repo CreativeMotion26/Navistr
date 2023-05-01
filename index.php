@@ -87,10 +87,10 @@
                 </a>
                 <div class="p-4">
                 <a href="/products/ac-adapter-30w-transparent-usb-c">
-                    <h1 class="text-lg font-semibold">30W Power Adapter</h1>
+                    <h1 class="text-lg font-semibold align-center">30W Power Adapter</h1>
                 </a>
                 <a href="/products/ac-adapter-30w-transparent-usb-c">
-                    <p class="text-gray-500">USB-C | GaN Technology</p>
+                    <p class="text-gray-500 align-center">USB-C | GaN Technology</p>
                 </a>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                     <h1 class="text-lg font-semibold align-center">Rugged Case</h1>
                 </a>
                 <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <p class="text-gray-500 al">iPhone 14 Series</p>
+                    <p class="text-gray-500 align-center">iPhone 14 Series</p>
                 </a>
                 </div>
             </div>
@@ -129,23 +129,23 @@
                 </a>
                 <div class="p-4">
                 <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <h1 class="text-lg font-semibold">Rugged Case</h1>
+                    <h1 class="text-lg font-semibold align-center">Rugged Case</h1>
                 </a>
                 <a href="/products/rugged-case-ash-green-iphone-14-pro-max">
-                    <p class="text-gray-500">iPhone 14 Series</p>
+                    <p class="text-gray-500 align-center">iPhone 14 Series</p>
                 </a>
                 </div>
             </div>
             </div>
         </section>
-        <main class = "container mx-auto bg-white py-8 border-t border-gray-400">
+        <main class = "container mx-auto bg-white py-8 border-t border-orange-400">
         <section class="py-0">
             <div class="ProductDetailsUniversal-container ProductDetailsUniversal--mobile py-8">
             <div class="PageWidth ProductDetailsUniversal ProductDetailsUniversal--noBackgroundContainer PageWidth--large relative" style="--mobileContainerHeight:150px; --desktopContainerHeight:120px;">
             <div class="ProductDetailsUniversal-media inset-0 flex justify-center items-center"></div><div class="ProductDetailsUniversal-textContentContainer z-10 w-full max-w-full justify-center">
                 <div class="ProductDetailsUniversal-textContent ProductDetailsUniversal-textContent-cover ProductDetailsUniversal-textContent-background py-16 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
                 <h4 class="text-gray-500 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">Florentine Product</h1>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 ">Florentine Product</h1>
                 <div class="cta--container">
 
                 </div>
