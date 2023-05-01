@@ -1,6 +1,6 @@
 <?php require __DIR__ . '/inc/functions.inc.php';?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
     <head>
         <?php require __DIR__ . '/inc/head.inc.php';?>
     </head>
