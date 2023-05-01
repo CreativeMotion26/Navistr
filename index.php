@@ -43,19 +43,19 @@
              <div class="grid grid-cols-2 gap-4">
                 <a href="/pages/new-gear" class="relative h-48 bg-center bg-cover" style="background-image: url('/assets/images/item1.jpg')">
                     <div class="absolute inset-0 bg-black opacity-50"></div>
-                    <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">New Gear</h1>
+                    <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">New Bags</h1>
                 </a>
-                <a href="/collections/cases" class="relative h-48 bg-center bg-cover" style="background-image: url('https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_3448,h_4229/https://f.shgcdn.com/2b0be81e-9142-4da4-9921-9fcc2f63804a/')">
+                <a href="/collections/cases" class="relative h-48 bg-center bg-cover" style="background-image: url('/assets/images/item2.jpg')">
                     <div class="absolute inset-0 bg-black opacity-50"></div>
-                    <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Cases</h1>
+                    <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Stationaries</h1>
                 </a>
-                <a href="/products/sport-slim-band-sage-41mm" class="relative h-48 bg-center bg-cover" style="background-image: url('https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_6000,h_4000/https://f.shgcdn.com/113f00ee-1924-41d0-8492-bf82b53e32ba/')">
+                <a href="/products/sport-slim-band-sage-41mm" class="relative h-48 bg-center bg-cover" style="background-image: url('/assets/images/item1.jpg')">
                     <div class="absolute inset-0 bg-black opacity-50"></div>
-                    <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Sport Bands</h1>
+                    <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Pens</h1>
                 </a>
-                <a href="/collections/power" class="relative h-48 bg-center bg-cover" style="background-image: url('https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto,c_limit,w_3448,h_4229/https://f.shgcdn.com/db675c9d-db3a-42ec-8ed3-f738cac89365/')">
+                <a href="/collections/power" class="relative h-48 bg-center bg-cover" style="background-image: url('/assets/images/item2.jpg')">
                     <div class="absolute inset-0 bg-black opacity-50"></div>
-                    <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Power</h1>
+                    <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Jornals</h1>
                 </a>
             </div>
         </section>
