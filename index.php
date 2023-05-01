@@ -59,7 +59,7 @@
                 </a>
             </div>
         </section>
-        <section class="py-0 container mx-auto bg-white py-8 border-t border-orange-400">
+        <section class="py-0 container mx-auto bg-white py-4 border-t border-orange-400">
             <div class="ProductDetailsUniversal-container ProductDetailsUniversal--mobile py-8">
             <div class="PageWidth ProductDetailsUniversal ProductDetailsUniversal--noBackgroundContainer PageWidth--large relative" style="--mobileContainerHeight:150px; --desktopContainerHeight:120px;">
             <div class="ProductDetailsUniversal-media absolute inset-0 flex justify-center items-center"></div><div class="ProductDetailsUniversal-textContentContainer z-10 w-full max-w-full justify-center">
