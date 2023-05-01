@@ -14,7 +14,7 @@
         <section class="py-0 container mx-auto bg-white py-4 border-t border-gray-400">
             <div class="container py-5">
             <div class="PageWidth PageWidth--large relative" style="--mobileContainerHeight:150px; --desktopContainerHeight:120px;">
-            <div class="media absolute inset-0 flex justify-center items-center"></div><div class="textContentContainer z-10 w-full max-w-full justify-center">
+            <div class="media absolute inset-0 flex justify-center items-center"></div><div class="textContentContainer w-full max-w-full justify-center">
                 <div class="textContent-cover textContent-background py-16 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
                 <h4 class="text-orange-500 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
                 <h1 class="text-4xl md:text-5xl font-bold mb-4">About Florentine</h1>
@@ -27,10 +27,10 @@
             </div>
         </section>
         <section class="py-0 container mx-auto bg-white py-4 border-t border-orange-400">
-            <div class="ProductDetailsUniversal-container ProductDetailsUniversal--mobile py-8">
+            <div class="ProductDetailsUniversal-container ProductDetailsUniversal--mobile py-4">
             <div class="PageWidth ProductDetailsUniversal ProductDetailsUniversal--noBackgroundContainer PageWidth--large relative" style="--mobileContainerHeight:150px; --desktopContainerHeight:120px;">
-            <div class="ProductDetailsUniversal-media absolute inset-0 flex justify-center items-center"></div><div class="ProductDetailsUniversal-textContentContainer z-10 w-full max-w-full justify-center">
-               <div class="ProductDetailsUniversal-textContent ProductDetailsUniversal-textContent-cover ProductDetailsUniversal-textContent-background py-16 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
+            <div class="ProductDetailsUniversal-media absolute inset-0 flex justify-center items-center"></div><div class="ProductDetailsUniversal-textContentContainer  w-full max-w-full justify-center">
+               <div class="ProductDetailsUniversal-textContent ProductDetailsUniversal-textContent-cover ProductDetailsUniversal-textContent-background py-8 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
                 <h4 class="text-orange-500 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
                 <h1 class="text-4xl md:text-5xl font-bold mb-4">Florentine Essentials</h1>
                 <div class="ProductDetailsUniversal-cta--container"></div>
