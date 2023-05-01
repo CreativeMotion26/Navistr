@@ -19,6 +19,7 @@
                 
                 <div>
                     <img class="h-auto max-w-full rounded-sm" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+                    <button>Delete</button><button>Edit</button>
                 </div>
                 
                 
