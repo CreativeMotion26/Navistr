@@ -9,7 +9,7 @@ if(!empty($_POST)){
     $password = hash('sha256', mysqli_real_escape_string($conn, $_POST['password']));
     $result = mysqli_query($conn, "SELECT * FROM users WHERE email='$email' AND password='$password'");
     $_SESSION['admin'] = true;
-    header('/admin');
+    header('Location: /admin');
 }
 ?>
 <!DOCTYPE html>
