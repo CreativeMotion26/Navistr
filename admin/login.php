@@ -9,7 +9,7 @@ if(!empty($_POST)){
 <!DOCTYPE html>
 <html>
     <head>
-        <?php require_once __DIR__ . '/../inc/head.php';?>
+        <?php require_once __DIR__ . '/../inc/head.inc.php';?>
     </head>
     <body class="bg-gray-50 dark:bg-gray-900">
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
