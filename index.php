@@ -1,7 +1,7 @@
 <?php require __DIR__ . '/inc/functions.inc.php';?>
 <!DOCTYPE html>
 <html lang="en"> 
-    <head>
+    <head> s 
         <?php require __DIR__ . '/inc/head.inc.php';?>
     </head>
     <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
