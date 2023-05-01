@@ -156,8 +156,8 @@
         </section>
             <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8 " >
                 <div>
-                    <h3 class = "pt-3 flex align-center justify-center ">Classic Leather Bag</h3>
                     <img class = "rounded-xl" src="/assets/images/item3.jpg" alt="" loading = "lazy">
+                    <h3 class = "pt-3 flex align-center justify-center ">Classic Leather Bag</h3>
                     <p class = " flex align-center justify-center">$249.99</p>
                 </div>
                 <div class="col-start-3">
