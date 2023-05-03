@@ -122,7 +122,7 @@
                             <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
                                 $999
                             </td>
-                            <td class="px-6 py-4">
+                            <td class="px-2 py-4">
                                 <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline border-2 border-gray-500 rounded-lg bg-gray-100 p-4">Remove</a>
                             </td>
                             <td>
