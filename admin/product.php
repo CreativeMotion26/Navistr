@@ -9,7 +9,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
         <div class="p-4 sm:ml-64">
                     <section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">
-            <!--<div class="mx-auto max-w-screen-xl px-4 lg:px-12">-->
+            
                 <!-- Start coding here -->
                 <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
                     <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
@@ -96,7 +96,7 @@
                                     <th scope="col" class="px-4 py-3">Product name</th>
                                     <th scope="col" class="px-4 py-3">Category</th>
                                     <th scope="col" class="px-4 py-3">Brand</th>
-                                    <th scope="col" class="px-4 py-3">Description</th>
+                                    <th scope="col" class="px-4 py-3">Stock</th>
                                     <th scope="col" class="px-4 py-3">Price</th>
                                     <th scope="col" class="px-4 py-3">
                                         <span class="sr-only">Actions</span>
@@ -260,7 +260,7 @@
                         </ul>
                     </nav>
                 </div>
-            <!--</div>-->
+            
             </section>
 
         </div>
