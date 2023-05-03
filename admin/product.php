@@ -123,8 +123,10 @@
                                 $999
                             </td>
                             <td class="px-6 py-4">
-                                <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline">Remove</a>
-                                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline border-2 border-gray-500 rounded-lg bg-gray-100 p-4">Remove</a>
+                            </td>
+                            <td>
+                                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline border-2 border-gray-500 rounded-lg bg-gray-100 p-4">Edit</a>
                             </td>
                         </tr>
                     </tbody>
