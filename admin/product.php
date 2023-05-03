@@ -7,7 +7,7 @@
         <?php require __DIR__ . '/inc/header.inc.php';?>
         <?php require __DIR__ . '/inc/sidebar.inc.php';?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-        <div class="p-4 sm:ml-64">
+        <!--<div class="p-4 sm:ml-64">-->
                     <section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">
             <div class="mx-auto max-w-screen-xl px-4 lg:px-12">
                 <!-- Start coding here -->
@@ -91,7 +91,7 @@
                         <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                 <tr>
-                                    <th scope="col" class="px-4 py-3"><label for="checkbox-table-search-1" class="sr-only">checkbox</label></th>
+                                    <th scope="col" class="px-4 py-3"></th>
                                     <th scope="col" class="px-4 py-3">Product</th>
                                     <th scope="col" class="px-4 py-3">Product name</th>
                                     <th scope="col" class="px-4 py-3">Category</th>
@@ -263,6 +263,6 @@
             </div>
             </section>
 
-        </div>
+        <!--</div>-->
     </body>
 </html>
