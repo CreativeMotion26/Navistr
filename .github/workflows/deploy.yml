@@ -12,10 +12,10 @@ jobs:
       - name: Deploy Code
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.DEPLOY_HOST }}
-          username: ${{ secrets.DEPLOY_USER }}
+          host: 170.64.165.197
+          username: root
           key: ${{ secrets.DEPLOY_KEY }}
-          port: ${{ secrets.DEPLOY_PORT }}
+          port: 22
           script: |
             cd /var/www/html
             git pull
