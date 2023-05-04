@@ -1,21 +1,20 @@
-name: Deploy to Ubuntu Server
+name: Update
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true  
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Deploy Code
-        uses: appleboy/ssh-action@master
+      - name: Run the update
+        uses: garygrossgarten/github-action-ssh@release
         with:
-          host: 170.64.165.197
-          username: root
-          key: ${{ secrets.DEPLOY_KEY }}
-          port: 22
-          script: |
-            cd /var/www/html
-            git pull
+          command: cd /var/www/html && git pull
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+        env:
+          CI: true
