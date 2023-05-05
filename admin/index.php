@@ -54,8 +54,8 @@
                                     <!--<div class="py-1"><div class="py-1">
                                         <a href="#" id="delete_category" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete Category</a>
                                     </div>-->
-                                    <div id="deleteCategory" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-screen">
-                                        <div class="relative w-full max-w-2xl max-h-screen">
+                                    <div id="deleteCategory" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                                        <div class="relative w-full max-w-2xl max-h-full">
                                             <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
                                                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                                                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
