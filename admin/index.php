@@ -351,7 +351,7 @@
                                     <!-- Modal header -->
                                     <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
                                         <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                                            Terms of Service
+                                            Delete Category
                                         </h3>
                                         <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="defaultModal">
                                             <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -360,12 +360,66 @@
                                     </div>
                                     <!-- Modal body -->
                                     <div class="p-6 space-y-6">
-                                        <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                            With less than a month to go before the European Union enacts new consumer privacy laws for its citizens, companies around the world are updating their terms of service agreements to comply.
-                                        </p>
-                                        <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                            The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.
-                                        </p>
+                                        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                                            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                                <tr>
+                                                    <th scope="col" class="p-4">
+                                                        <div class="flex items-center">
+                                                            <input id="checkbox-all" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                                            <label for="checkbox-all" class="sr-only">checkbox</label>
+                                                        </div>
+                                                    </th>
+                                                    <th scope="col" class="px-6 py-3">
+                                                        Category Name
+                                                    </th>
+                                                    <th scope="col" class="px-6 py-3">
+                                                        Quantity of Items
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                                    <td class="w-4 p-4">
+                                                        <div class="flex items-center">
+                                                            <input id="checkbox-table-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                                            <label for="checkbox-table-1" class="sr-only">checkbox</label>
+                                                        </div>
+                                                    </td>
+                                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                        Apple"
+                                                    </th>
+                                                    <td class="px-6 py-4">
+                                                        23
+                                                    </td>
+                                                </tr>
+                                                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                                    <td class="w-4 p-4">
+                                                        <div class="flex items-center">
+                                                            <input id="checkbox-table-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                                            <label for="checkbox-table-2" class="sr-only">checkbox</label>
+                                                        </div>
+                                                    </td>
+                                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                        Microsoft
+                                                    </th>
+                                                    <td class="px-6 py-4">
+                                                        34
+                                                </tr>
+                                                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                                    <td class="w-4 p-4">
+                                                        <div class="flex items-center">
+                                                            <input id="checkbox-table-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                                            <label for="checkbox-table-3" class="sr-only">checkbox</label>
+                                                        </div>
+                                                    </td>
+                                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                        Google
+                                                    </th>
+                                                    <td class="px-6 py-4">
+                                                        12
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                     <!-- Modal footer -->
                                     <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
