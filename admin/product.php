@@ -7,7 +7,7 @@
         
         <?php require __DIR__ . '/inc/sidebar.inc.php';?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-        <div class="p-4 sm:ml-64">
+        <!--<div class="p-4 sm:ml-64">-->
                     <!--<section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">-->
             
                 <!-- Start coding here -->
@@ -264,6 +264,6 @@
             
             <!--</section>-->   
 
-        </div>
+        <!--</div>-->
     </body>
 </html>
