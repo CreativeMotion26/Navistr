@@ -8,9 +8,6 @@
     <body>
         <?php require __DIR__ . '/inc/sidebar.inc.php';?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-        <!--<div class="p-4 sm:ml-64">-->
-                    <!--<section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">-->
-            
                 <!-- Start coding here -->
                 <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
                     <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
@@ -47,12 +44,6 @@
                                     Actions
                                 </button>
                                 <div id="actionsDropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-<!--
-                                    <div class="py-1">
-                                        <a href="#" id="delete_category" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete Category</a>
-                                    </div>-->
-
-                                    <!-- Modal toggle -->
                                     <div class="py-1">
                                     <button data-modal-target="defaultModal5" data-modal-toggle="defaultModal5" class="block py-2 px-10 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" type="button">
                                     Delete Category
@@ -486,19 +477,6 @@
                                 </div>
                             </div>
                         </div>
-            <!--</section>-->   
-            <!-- The form to display-->
-                
-                <!-- JavaScript to show/hide the form -->
-                <script>
-                // Get a reference to the link and form elements
-                const link = document.getElementById('delete_category');
-                const form = document.getElementById('delete_category_form');
-
-                // Add an event listener to the link element
-                link.addEventListener('click', function(e) {
-                    e.preventDefault(); // prevent the default link behavior
-                    form.classList.remove('hidden'); // display the form
-                });
+            
     </body>
 </html>
