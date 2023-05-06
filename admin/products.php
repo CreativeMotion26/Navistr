@@ -1,13 +1,12 @@
 <?php
 require_once __DIR__ . '/inc/functions.inc.php';
-
 if(isset($_POST['add_product'])){
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $description = mysqli_real_escape_string($conn, $_POST['description']);
     $price = mysqli_real_escape_string($conn, $_POST['price']);
     $sku = mysqli_real_escape_string($conn, $_POST['sku']);
     $stock = mysqli_real_escape_string($conn, $_POST['stock']);
-    mysqli_query($conn, "INSERT INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
+    mysqli_query($conn, "REPLACE INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
 }
 ?>
 <!doctype html>
