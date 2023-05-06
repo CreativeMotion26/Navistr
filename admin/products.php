@@ -1,13 +1,12 @@
 <?php
 require_once __DIR__ . '/inc/functions.inc.php';
-
 if(isset($_POST['add_product'])){
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $description = mysqli_real_escape_string($conn, $_POST['description']);
     $price = mysqli_real_escape_string($conn, $_POST['price']);
     $sku = mysqli_real_escape_string($conn, $_POST['sku']);
     $stock = mysqli_real_escape_string($conn, $_POST['stock']);
-    mysqli_query($conn, "INSERT INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
+    mysqli_query($conn, "REPLACE INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
 }
 ?>
 <!doctype html>
@@ -18,7 +17,11 @@ if(isset($_POST['add_product'])){
 </head>
 <body>
 <?php require __DIR__ . '/inc/sidebar.inc.php';?>
+<<<<<<< HEAD
     <div class="bg-white  relative shadow-md sm:rounded-lg overflow-hidden">
+=======
+    <div class="bg-white relative shadow-md sm:rounded-lg overflow-hidden">
+>>>>>>> 9a0792dd5b65ccaabce3bc68c348a6728e9efce1
         <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
             <div class="w-full md:w-1/2">
                 <form class="flex items-center">
@@ -134,6 +137,7 @@ if(isset($_POST['add_product'])){
                                 <div id="apple-imac-27-dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
                                     <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="apple-imac-27-dropdown-button">
                                         <li>
+<<<<<<< HEAD
                                             <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Show</a>
                                         </li>
                                         <li>
@@ -141,6 +145,9 @@ if(isset($_POST['add_product'])){
                                                 <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
                                             </button>
                                             
+=======
+                                            <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+>>>>>>> 9a0792dd5b65ccaabce3bc68c348a6728e9efce1
                                         </li>
                                     </ul>
                                     <div class="py-1">
