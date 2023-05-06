@@ -17,9 +17,9 @@
             <div class="media absolute inset-0 flex justify-center items-center"></div><div class="textContentContainer w-full max-w-full justify-center">
                 <div class="textContent-cover textContent-background py-8 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
                 <h4 class="text-orange-500 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">About Florentine</h1>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Our History</h1>
                 <div class="ProductDetailsUniversal-cta--container">
-                <p class = " flex align-center justify-center"> Florentine is a family-owned business that specializes in importing high-quality leather goods from Italy's finest leather workers. Our collection includes a wide range of leather bags, from sleek and modern designs to classic and timeless styles. We also offer luxury writing sets made by Bortoletti, a world-renowned brand based in Venice.</p>
+                <p class="flex align-center justify-center"> Florentine is a family-owned business that specializes in importing high-quality leather goods from Italy's finest leather workers. Our collection includes a wide range of leather bags, from sleek and modern designs to classic and timeless styles. We also offer luxury writing sets made by Bortoletti, a world-renowned brand based in Venice.</p>
                 </div>
             </div>
              </div>
