@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
 $logging_in = true;
 require_once __DIR__ . '/inc/functions.inc.php';
 if(!empty($_POST)){
