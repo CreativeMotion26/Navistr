@@ -1,29 +1,25 @@
-<footer class="container mx-auto bg-white py-8 border-t border-gray-400
-grid grid-flow-col grid-rows-1 grid-cols-2 gap-8">
-    <div class = "">
-        <img class="max-h-20 p-2" src ="assets/images/logo.png" alt="Logo">
-    </div>
-        <div class="container flex px-3">
-            <div class="w-full mx-auto flex flex-wrap">
-                <div class="flex w-full lg:w-1/2 ">
-                    <div class="px-3 md:px-0">
-                        <h3 class="font-bold text-gray-900">About</h3>
-                        <p class="py-4">
-                        Discover our collection of fine leather goods imported from Italy
-                        </p>
-                    </div>
-                </div>
-                <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
-                    <div class="px-3 md:px-0">
-                        <h3 class="font-bold text-gray-900">Social</h3>
-                        <ul class="list-reset items-center pt-3">
-                            <li>
-                                <a class="inline-block no-underline hover:text-black hover:underline py-1" href="#">Add social links</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-  
+<footer class="bg-white rounded-lg m-4">
+   <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+         <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
+         <img src="assets/images/logo.png" class="max-h-14 p-1" alt="Flowbite Logo" />
+         </a>
+         <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <li>
+               <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+            </li>
+            <li>
+               <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+            </li>
+            <li>
+               <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+            </li>
+            <li>
+               <a href="#" class="hover:underline">Contact</a>
+            </li>
+         </ul>
+      </div>
+      <hr class="my-6 border-orange-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Navistr</a>. All Rights Reserved.</span>
+   </div>
 </footer>
