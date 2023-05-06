@@ -1,4 +1,8 @@
-<?php require_once __DIR__ . '/inc/functions.inc.php';?>
+<?php
+if(isset($_POST['add_product'])){
+    var_dump($_POST);
+}
+require_once __DIR__ . '/inc/functions.inc.php';?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -280,7 +284,8 @@
                     <section class="bg-white dark:bg-gray-900">
                         <div class=" transform -translate-y-16 px-4 mx-auto max-w-2xl lg:py-16">
                             <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Add a new product</h2>
-                            <form action="#">
+                            <form action="." method="POST">
+                                <input name="add_product" value="true">
                                 <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
                                     <div class="sm:col-span-2">
                                         <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Product Name</label>
