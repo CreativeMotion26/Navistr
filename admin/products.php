@@ -99,7 +99,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                    <?php $result = mysqli_query($conn, "SELECT sku, name, price, description, stock FROM products");
+                    <?php $result = mysqli_query($conn, "SELECT sku, name, price, description, stock FROM product");
                     while($row = mysqli_fetch_assoc($result)){?>
                         <tr class="border-b dark:border-gray-700">
                             <td class="w-4 px-4 py-3">
