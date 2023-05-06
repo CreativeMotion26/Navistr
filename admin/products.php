@@ -33,12 +33,10 @@ if(isset($_POST['add_product'])){
                 </form>
             </div>
             <div class="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0">
-
-                <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1"class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-white focus:outline-none bg-blue-500 rounded-lg border border-gray-200 hover:bg-blue-400 hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
+                <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-white focus:outline-none bg-blue-500 rounded-lg border border-gray-200 hover:bg-blue-400 hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
                     Add New Product
                 </button>
-
-                <button data-modal-target="defaultModal2" data-modal-toggle="defaultModal2"class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-black focus:outline-none bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-200 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
+                <button data-modal-target="defaultModal2" data-modal-toggle="defaultModal2" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-black focus:outline-none bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-200 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
                     Add New Category
                 </button>
                 <div class="flex items-center space-x-2 w-full md:w-auto">
@@ -54,8 +52,6 @@ if(isset($_POST['add_product'])){
                                 Delete Category
                             </button>
                         </div>
-
-
                     </div>
                     <button id="filterDropdownButton" data-dropdown-toggle="filterDropdown" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewbox="0 0 20 20" fill="currentColor">
