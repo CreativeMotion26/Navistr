@@ -119,21 +119,21 @@ if(isset($_POST['add_product'])){
                                 </div>
                             </td>
                             <th scope="row" class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-nowrap">
-                                <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/devices/apple-iphone-14.png" alt="iMac Front Image" class="w-auto h-8 mr-3">
+                                <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/devices/apple-iphone-14.png" alt="Front Image" class="w-auto h-8 mr-3">
                             </th>
                             <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap"><?php echo $row['name'];?></th>
                             <td class="px-4 py-3"><?php echo $row['stock'];?></td>
                             <td class="px-4 py-3">$<?php echo $row['price'];?></td>
                             <td class="px-4 py-3 flex items-center justify-end">
-                                <button id="apple-imac-27-dropdown-button" data-dropdown-toggle="apple-imac-27-dropdown" class="inline-flex items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none" type="button">
+                                <button class="inline-flex items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none" type="button">
                                     <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
                                     </svg>
                                 </button>
-                                <div id="apple-imac-27-dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
-                                    <ul class="py-1 text-sm text-gray-700" aria-labelledby="apple-imac-27-dropdown-button">
+                                <div class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
+                                    <ul class="py-1 text-sm text-gray-700">
                                         <li>
-                                            <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100" type="button">
+                                            <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="py-2 px-4 text-sm text-gray-700 hover:bg-gray-100" type="button">
                                                 Edit
                                             </button>
                                         </li>
