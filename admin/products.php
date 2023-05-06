@@ -17,7 +17,11 @@ if(isset($_POST['add_product'])){
 </head>
 <body>
 <?php require __DIR__ . '/inc/sidebar.inc.php';?>
+<<<<<<< HEAD
+    <div class="bg-white  relative shadow-md sm:rounded-lg overflow-hidden">
+=======
     <div class="bg-white relative shadow-md sm:rounded-lg overflow-hidden">
+>>>>>>> 9a0792dd5b65ccaabce3bc68c348a6728e9efce1
         <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
             <div class="w-full md:w-1/2">
                 <form class="flex items-center">
@@ -133,7 +137,22 @@ if(isset($_POST['add_product'])){
                                 <div id="apple-imac-27-dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow  ">
                                     <ul class="py-1 text-sm text-gray-700 " aria-labelledby="apple-imac-27-dropdown-button">
                                         <li>
+<<<<<<< HEAD
+                                            <a href="#" class="block py-2 px-4 hover:bg-gray-100  ">Show</a>
+                                        </li>
+                                        <li>
+<<<<<<< HEAD
+                                            <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 " type="button">
+                                                <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+=======
+                                            <button data-modal-target="defaultModal5" data-modal-toggle="defaultModal5" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 " type="button">
+                                                <a href="#" class="block py-2 px-4 hover:bg-gray-100  ">Edit</a>
+>>>>>>> 6be3c2be10740a3d8abfabbf651c66411b599f57
+                                            </button>
+                                            
+=======
                                             <a href="#" class="block py-2 px-4 hover:bg-gray-100  ">Edit</a>
+>>>>>>> 9a0792dd5b65ccaabce3bc68c348a6728e9efce1
                                         </li>
                                     </ul>
                                     <div class="py-1">
