@@ -286,7 +286,7 @@ require_once __DIR__ . '/inc/functions.inc.php';?>
                         <div class=" transform -translate-y-16 px-4 mx-auto max-w-2xl lg:py-16">
                             <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Add a new product</h2>
                             <form action="/admin/products" method="POST">
-                                <input name="add_product" value="true">
+                                <input name="add_product" type="hidden">
                                 <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
                                     <div class="sm:col-span-2">
                                         <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
