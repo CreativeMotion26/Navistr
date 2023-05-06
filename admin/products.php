@@ -103,6 +103,7 @@ if(isset($_POST['add_product'])){
                 <thead class="text-xs text-gray-700 uppercase bg-gray-50 ">
                 <tr>
                     <th scope="col" class="px-4 py-3"></th>
+                    <th scope="col" class="px-4 py-3">SKU</th>
                     <th scope="col" class="px-4 py-3">Product</th>
                     <th scope="col" class="px-4 py-3">Name</th>
                     <th scope="col" class="px-4 py-3">Stock</th>
@@ -122,6 +123,7 @@ if(isset($_POST['add_product'])){
                                     <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
                                 </div>
                             </td>
+                            <td class="px-4 py-3"><?php echo $row['sku'];?></td>
                             <th scope="row" class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-nowrap ">
                                 <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/devices/apple-iphone-14.png" alt="iMac Front Image" class="w-auto h-8 mr-3">
                             </th>
@@ -146,7 +148,7 @@ if(isset($_POST['add_product'])){
                                                 <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
 =======
                                             <button data-modal-target="defaultModal5" data-modal-toggle="defaultModal5" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 " type="button">
-                                                <a href="#" class="block py-2 px-4 hover:bg-gray-100  ">Edit</a>
+                                                <a href="#">Edit</a>
 >>>>>>> 6be3c2be10740a3d8abfabbf651c66411b599f57
                                             </button>
                                             
