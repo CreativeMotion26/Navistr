@@ -285,7 +285,7 @@ require_once __DIR__ . '/inc/functions.inc.php';?>
                     <section class="bg-white dark:bg-gray-900">
                         <div class=" transform -translate-y-16 px-4 mx-auto max-w-2xl lg:py-16">
                             <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Add a new product</h2>
-                            <form action="." method="POST">
+                            <form action="/admin/products" method="POST">
                                 <input name="add_product" value="true">
                                 <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
                                     <div class="sm:col-span-2">
