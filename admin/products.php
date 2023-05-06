@@ -7,7 +7,7 @@ if(isset($_POST['add_product'])){
     $price = mysqli_real_escape_string($conn, $_POST['price']);
     $sku = mysqli_real_escape_string($conn, $_POST['sku']);
     $stock = mysqli_real_escape_string($conn, $_POST['stock']);
-    mysqli_query($conn, "INSERT INTO products (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
+    mysqli_query($conn, "INSERT INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
 }
 ?>
 <!doctype html>
