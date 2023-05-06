@@ -141,7 +141,7 @@ if(isset($_POST['add_product'])){
                                             <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Show</a>
                                         </li>
                                         <li>
-                                            <button data-modal-target="defaultModal5" data-modal-toggle="defaultModal5" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 " type="button">
+                                            <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 " type="button">
                                                 <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
                                             </button>
                                             
