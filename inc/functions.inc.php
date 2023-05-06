@@ -1,8 +1,8 @@
 <?php
 $database = [
     'host' => 'localhost',
-    'user' => 'root',
-    'password' => '',
+    'user' => 'florentine',
+    'password' => 'yHW5KqVtKTuzV&pLEjxMnrN3yn@ziyAEJgbyWqzKqKRs7Jdt%B',
     'database' => 'florentine',
 ];
 
