@@ -1,6 +1,4 @@
 <?php
-$settings = json_decode(file_get_contents(__DIR__ . '/../db/settings.json'), true);
-
 $database = [
     'host' => '185.252.233.213',
     'user' => 'YwUetX47DLgkXyCs',
