@@ -386,7 +386,7 @@
             
 
             <!-- Right Content -->
-            <div class="grid gap-4">
+            <div class="grid gap-4 items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 sm:p-6 dark:bg-gray-800">
                 <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
                 <div class="items-center justify-between pb-4 border-b border-gray-200 sm:flex dark:border-gray-700">
                     <div class="w-full mb-4 sm:mb-0">
