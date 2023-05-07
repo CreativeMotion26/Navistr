@@ -8,14 +8,12 @@
 <body>
     <?php require __DIR__ . '/inc/sidebar.inc.php';?>
     ---
-title: Tailwind CSS Dashboard Stacked Layout - Flowbite
+title: Tailwind CSS Admin Dashboard - Flowbite
 description: Get started with a free and open-source admin dashboard layout built with Tailwind CSS and Flowbite featuring charts, widgets, CRUD layouts, authentication pages, and more
-layout: stacked-layout
-group: layouts
+layout: dashboard
 footer: true
 ---
-
-<div class="px-4 pt-6 2xl:px-0">
+<div class="px-4 pt-6">
     <div class="grid gap-4 xl:grid-cols-2 2xl:grid-cols-3">
       <!-- Main widget -->
       <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
@@ -828,7 +826,7 @@ footer: true
           </div>
         </div>
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-          <div class="flex items-center justify-between pb-4 border-b border-gray-200 dark:border-gray-700">
+          <div class="flex items-center justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
             <div>
               <h3 class="text-base font-normal text-gray-500 dark:text-gray-400">Traffic by device</h3>
               <span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">Desktop</span>
