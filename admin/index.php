@@ -413,8 +413,10 @@
         <div id="traffic-channels-chart" class="w-full"></div>
       </div>
     </div>
-<!-- Right Content -->
-      <div class="grid gap-4 xl:gap-8 grid-cols-2">
+    <!-- chat starts-->
+
+      <!-- Right Content -->
+      <div class="grid gap-4 my-4 xl:gap-8 grid-cols-2">
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
           <div class="items-center justify-between pb-4 border-b border-gray-200 sm:flex dark:border-gray-700">
             <div class="w-full mb-4 sm:mb-0">
@@ -567,7 +569,7 @@
           </div>
         </div>
       </div>
-   
+    </div>
     <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
       <!-- Card header -->
       <div class="items-center justify-between lg:flex">
