@@ -576,7 +576,7 @@
 
             <!--Carousel widget -->
 
-            <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+            <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800 w-screen">
             <!-- Card header -->
             <div class="items-center justify-between lg:flex">
                 <div class="mb-4 lg:mb-0">
@@ -657,7 +657,7 @@
                 </div>
             </div>
             <!-- Table -->
-            <div class="flex flex-col mt-6 w-screen">
+            <div class="flex flex-col mt-6 ">
                 <div class="overflow-x-auto rounded-lg">
                 <div class="inline-block min-w-full align-middle">
                     <div class="overflow-hidden shadow sm:rounded-lg">
