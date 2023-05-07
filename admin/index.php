@@ -415,15 +415,6 @@
             </div>
             </div>
             <div class="grid grid-cols-1 my-4 xl:grid-cols-2 xl:gap-4">
-            <div class="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:border-gray-700 dark:bg-gray-800 xl:mb-0 w-screen">
-                <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Smart chat</h3>
-                <a href="#" class="inline-flex items-center p-2 text-sm font-medium rounded-lg text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">
-                    View all
-                </a>
-                </div>
-            
-            </div>
             <!-- Right Content -->
             <div class="grid gap-4">
                 <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
@@ -666,7 +657,7 @@
                 </div>
             </div>
             <!-- Table -->
-            <div class="flex flex-col mt-6">
+            <div class="flex flex-col mt-6 w-screen">
                 <div class="overflow-x-auto rounded-lg">
                 <div class="inline-block min-w-full align-middle">
                     <div class="overflow-hidden shadow sm:rounded-lg">
