@@ -1,12 +1,12 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <?php require __DIR__ . '/../inc/head.inc.php';?>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet">
-</head>
-<body>
-    <?php require __DIR__ . '/inc/sidebar.inc.php';?>
-        <?php require __DIR__ . '/inc/functions.inc.php';?>
+<?php require __DIR__ . '/inc/functions.inc.php';?>
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <?php require __DIR__ . '/inc/head.inc.php';?>
+    </head>
+   <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+      <?php require __DIR__ . '/inc/header.inc.php';?>
+      
       
       <section  class="flex align-center justify-center flex-col h-[60vh] bg-cover bg-center bg-no-repeat bg-contain text-center text-white bg-gradient-to-t from-black/75 via-black/0">
                 
