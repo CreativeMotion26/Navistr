@@ -6,8 +6,8 @@
 </head>
 <body>
     <?php require __DIR__ . '/inc/sidebar.inc.php';?>
-    <div class="px-4 pt-6">
-        <div class="fixed top-0 left-0 right-0 z-50  w-full p-4 overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    
+        <div class="fixed top-0 left-0 right-0 z-50  translate-y-4 w-full p-4 overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
             <div class="relative w-full max-w-2xl max-h-full">
                 <!-- Modal content -->
                 <div class="relative bg-white rounded-lg shadow">
@@ -46,6 +46,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 </body>
 </html>
