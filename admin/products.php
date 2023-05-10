@@ -8,6 +8,10 @@ if(isset($_POST['add_product'])){
     $stock = mysqli_real_escape_string($conn, $_POST['stock']);
     mysqli_query($conn,"REPLACE INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
 }
+if(isset($_GET['delete'])){
+    $sku = mysqli_real_escape_string($conn, $_GET['delete']);
+    mysqli_query($conn,"DELETE FROM product WHERE sku='$sku'");
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -137,7 +141,7 @@ if(isset($_POST['add_product'])){
                                         </li>
                                     </ul>
                                     <div class="py-1">
-                                        <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Delete</a>
+                                        <a href="?delete=<?php echo $row['sku'];?>" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Delete</a>
                                     </div>
                                 </div>
                             </td>
