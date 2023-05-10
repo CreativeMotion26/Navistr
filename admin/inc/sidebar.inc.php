@@ -20,12 +20,12 @@
             </button>
         </li>
         <li class="mr-2">
-            <a href="/admin/add-product" class="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+            <a href="/admin/addProduct" class="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
                 <svg aria-hidden="true" class="w-5 h-5 mr-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 4h4v4H4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zM4 16h4v-4H4v4zm6 0h4v-4h-4v4z" clip-rule="evenodd"></path></svg>Add Product
             </a>
         </li>
         <li class="mr-2">
-            <a href="/admin/add-category" class="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+            <a href="/admin/addCategory" class="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
                 <svg aria-hidden="true" class="w-5 h-5 mr-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M17 3a2 2 0 00-2-2H5a2 2 0 00-2 2v6h2V3h10v2h2V3zm2 6v10a2 2 0 01-2 2H3a2 2 0 01-2-2V7c0-1.1.9-2 2-2h4V3h2v2h4V3h2v2h4zm-4 6a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>Add Category
             </a>
         </li>
