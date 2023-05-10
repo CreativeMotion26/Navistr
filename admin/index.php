@@ -62,25 +62,6 @@ require_once __DIR__ . '/inc/functions.inc.php';
                 </div>
                 <ul class="py-1" role="none">
                   <li>
-<<<<<<< Updated upstream
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100   " role="menuitem">Yesterday</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100   " role="menuitem">Today</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100   " role="menuitem">Last 7 days</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100   " role="menuitem">Last 30 days</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100   " role="menuitem">Last 90 days</a>
-                  </li>
-                </ul>
-                <div class="py-1" role="none">
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100   " role="menuitem">Custom...</a>
-=======
                     <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Yesterday</a>
                   </li>
                   <li>
@@ -98,16 +79,11 @@ require_once __DIR__ . '/inc/functions.inc.php';
                 </ul>
                 <div class="py-1" role="none">
                   <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Custom...</a>
->>>>>>> Stashed changes
                 </div>
             </div>
           </div>
           <div class="flex-shrink-0">
-<<<<<<< Updated upstream
-            <a href="#" class="inline-flex items-center p-2 text-xs font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100  ">
-=======
             <a href="#" class="inline-flex items-center p-2 text-xs font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100">
->>>>>>> Stashed changes
               Sales Report
               <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
             </a>
@@ -115,15 +91,6 @@ require_once __DIR__ . '/inc/functions.inc.php';
         </div>
       </div>
       <!--Tabs widget -->
-<<<<<<< Updated upstream
-      <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm  sm:p-6 ">
-        <h3 class="flex items-center mb-4 text-lg font-semibold text-gray-900 ">Statistics this month
-        <button data-popover-target="popover-description" data-popover-placement="bottom-end" type="button"><svg class="w-4 h-4 ml-2 text-gray-400 hover:text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg><span class="sr-only">Show information</span></button>
-        </h3>
-        <div data-popover id="popover-description" role="tooltip" class="absolute z-10 invisible inline-block text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-72   ">
-          <div class="p-3 space-y-2">
-              <h3 class="font-semibold text-gray-900 ">Statistics</h3>
-=======
       <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm  sm:p-6">
         <h3 class="flex items-center mb-4 text-lg font-semibold text-gray-900">Statistics this month
         <button data-popover-target="popover-description" data-popover-placement="bottom-end" type="button"><svg class="w-4 h-4 ml-2 text-gray-400 hover:text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg><span class="sr-only">Show information</span></button>
@@ -342,27 +309,13 @@ require_once __DIR__ . '/inc/functions.inc.php';
               </ul>
             </div>
             <div class="hidden pt-4" id="about" role="tabpanel" aria-labelledby="about-tab">
-<<<<<<< Updated upstream
-              <ul role="list" class="divide-y divide-gray-200 ">
-=======
               <ul role="list" class="divide-y divide-gray-200">
->>>>>>> Stashed changes
                 <li class="py-3 sm:py-4">
                   <div class="flex items-center space-x-4">
                     <div class="flex-shrink-0">
                       <img class="w-8 h-8 rounded-full" src="/images/users/neil-sims.png" alt="Neil image">
                     </div>
                     <div class="flex-1 min-w-0">
-<<<<<<< Updated upstream
-                      <p class="font-medium text-gray-900 truncate ">
-                        Neil Sims
-                      </p>
-                      <p class="text-sm text-gray-500 truncate ">
-                        email@flowbite.com
-                      </p>
-                    </div>
-                    <div class="inline-flex items-center text-base font-semibold text-gray-900 ">
-=======
                       <p class="font-medium text-gray-900 truncate">
                         Neil Sims
                       </p>
@@ -371,7 +324,6 @@ require_once __DIR__ . '/inc/functions.inc.php';
                       </p>
                     </div>
                     <div class="inline-flex items-center text-base font-semibold text-gray-900">
->>>>>>> Stashed changes
                       $3320
                     </div>
                   </div>
@@ -382,16 +334,6 @@ require_once __DIR__ . '/inc/functions.inc.php';
                       <img class="w-8 h-8 rounded-full" src="/images/users/bonnie-green.png" alt="Neil image">
                     </div>
                     <div class="flex-1 min-w-0">
-<<<<<<< Updated upstream
-                      <p class="font-medium text-gray-900 truncate ">
-                        Bonnie Green
-                      </p>
-                      <p class="text-sm text-gray-500 truncate ">
-                        email@flowbite.com
-                      </p>
-                    </div>
-                    <div class="inline-flex items-center text-base font-semibold text-gray-900 ">
-=======
                       <p class="font-medium text-gray-900 truncate">
                         Bonnie Green
                       </p>
@@ -400,7 +342,6 @@ require_once __DIR__ . '/inc/functions.inc.php';
                       </p>
                     </div>
                     <div class="inline-flex items-center text-base font-semibold text-gray-900">
->>>>>>> Stashed changes
                       $2467
                     </div>
                   </div>
