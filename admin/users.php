@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php require __DIR__ . '/inc/sidebar.inc.php';?>
-    <div class="px-4 pt-6 2xl:px-0">
+
     
 </body>
 </html>
