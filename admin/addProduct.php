@@ -5,11 +5,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet">
 </head>
 <body>
-  <div class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+  <div class="fixed top-0 left-0 right-0 z-50  w-full p-4 overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative w-full max-w-2xl max-h-full">
-            <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow">
-                <!-- Modal body -->
                 <div class="p-6 space-y-6">
                     <section class="bg-white">
                         <div class=" transform -translate-y-16 px-4 mx-auto max-w-2xl lg:py-16">
