@@ -14,7 +14,7 @@
 
 
 
-            <!--<div class="w-full max-w-sm bg-white translate-y-16 ">-->
+            <div class="w-full max-w-sm bg-white translate-y-16 ">
                 
                 <div class="flex flex-col items-center pb-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="assets\images\contact.jpg" alt="Bonnie image"/>
@@ -25,7 +25,78 @@
                         <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Message</a>
                     </div>
                 </div>
-            
+
+                <div class="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex items-center justify-between mb-4">
+                        <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Admin</h5>
+                        <a href="#" class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+                            View all
+                        </a>
+                </div>
+                <div class="flow-root">
+                        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                            <li class="py-3 sm:py-4">
+                                <div class="flex items-center space-x-4">
+                                    <div class="flex-shrink-0">
+                                        <img class="w-8 h-8 rounded-full" src="assets\images\2.jpg" alt="Neil image">
+                                    </div>
+                                    <div class="flex-1 min-w-0">
+                                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Neil Sims
+                                        </p>
+                                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            email@windster.com
+                                        </p>
+                                    </div>
+                                    <span class="inline-flex items-center bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
+                                        <span class="w-2 h-2 mr-1 bg-green-500 rounded-full"></span>
+                                        Available
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="py-3 sm:py-4">
+                                <div class="flex items-center space-x-4">
+                                    <div class="flex-shrink-0">
+                                        <img class="w-8 h-8 rounded-full" src="assets\images\3
+                                        .jpg" alt="Bonnie image">
+                                    </div>
+                                    <div class="flex-1 min-w-0">
+                                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Bonnie Green
+                                        </p>
+                                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            email@windster.com
+                                        </p>
+                                    </div>
+                                    <span class="inline-flex items-center bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">
+                                        <span class="w-2 h-2 mr-1 bg-red-500 rounded-full"></span>
+                                        Unavailable
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="py-3 sm:py-4">
+                                <div class="flex items-center space-x-4">
+                                    <div class="flex-shrink-0">
+                                        <img class="w-8 h-8 rounded-full" src="assets\images\4.jpg" alt="Michael image">
+                                    </div>
+                                    <div class="flex-1 min-w-0">
+                                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Michael Gough
+                                        </p>
+                                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            email@windster.com
+                                        </p>
+                                    </div>
+                                        <span class="inline-flex items-center bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">
+                                            <span class="w-2 h-2 mr-1 bg-red-500 rounded-full"></span>
+                                            Unavailable
+                                        </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
 
 
