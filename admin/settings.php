@@ -11,7 +11,7 @@
 
     <div class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-3 xl:gap-4 m dark:bg-gray-900">
 
-        <div style="display: flex; gap: 20px;">
+
 
             <div class="w-full  text-left max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <div class="flex justify-end px-4 pt-4">
@@ -47,8 +47,6 @@
 
 
 
-
-        </div >
 
         <div class="col-span-2 mt-4 ">
             <div class="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
