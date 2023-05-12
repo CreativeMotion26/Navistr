@@ -14,7 +14,7 @@
 
 
 
-            <div class="w-full max-w-sm bg-white translate-y-16 ">
+            <div class=" translate-y-16 w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                 
                 <div class="flex flex-col items-center pb-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="assets\images\contact.jpg" alt="Bonnie image"/>
