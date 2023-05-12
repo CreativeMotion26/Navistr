@@ -9,7 +9,7 @@ require_once __DIR__ . '/inc/functions.inc.php';
 </head>
 <body>
     <?php require __DIR__ . '/inc/sidebar.inc.php';?>
-
+    <script src="https://cdn.usefathom.com/script.js" data-site="UGPDODOP" defer></script>
 <div class="px-4 pt-6">
     <div class="grid gap-4 xl:grid-cols-2 2xl:grid-cols-3">
       <!-- Main widget -->
