@@ -265,25 +265,25 @@ if(isset($_GET['delete'])){
                         <tr class="bg-white border-b   hover:bg-gray-50">
                             
                             <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                Bags"
+                                Belt"
                             </th>
                             <td class="px-6 py-4">
-                                Latido
+                                Samurai
                             </td>
                             <td class="px-6 py-4">
-                                B-grade
+                                A-grade
                             </td>
                         </tr>
-                        <<tr class="bg-white border-b   hover:bg-gray-50">
+                        <tr class="bg-white border-b   hover:bg-gray-50">
                             
                             <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                Bags"
+                                Wallet"
                             </th>
                             <td class="px-6 py-4">
-                                Latido
+                                Devil
                             </td>
                             <td class="px-6 py-4">
-                                B-grade
+                                A-grade
                             </td>
                         </tr>
                         </tbody>
