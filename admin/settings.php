@@ -9,7 +9,7 @@
 <body>
     <?php require __DIR__ . '/inc/sidebar.inc.php';?>
 
-    <div class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-3 xl:gap-4 m dark:bg-gray-900 col-span-2">
+    <div class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-3 xl:gap-4 m dark:bg-gray-900">
 
         <div style="display: flex; gap: 20px;">
 
@@ -158,8 +158,6 @@
                     </div>
                 </form>
             </div>
-
-
     </div>
     <div class="col-span-2">
         <div class="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800 xl:mb-0">
