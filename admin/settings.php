@@ -14,7 +14,7 @@
 
 
            
-            <div class="w-full max-w-sm bg-white translate-y-4 ">
+            <div class="w-full max-w-sm bg-white translate-y-18 ">
                 
                 <div class="flex flex-col items-center pb-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image"/>
