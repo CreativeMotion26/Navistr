@@ -14,7 +14,7 @@
 
 
 
-            <div class=" translate-y-16 w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+            <div class="w-full max-w-sm bg-white translate-y-16 ">
                 
                 <div class="flex flex-col items-center pb-10">
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="assets\images\contact.jpg" alt="Bonnie image"/>
@@ -95,6 +95,18 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+                <div class="mb-6">
+                    <label for="settings-timezone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Time Zone</label>
+                    <select id="settings-timezone" name="countries" class="bg-gray-50 border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                        <option>GMT+0 Greenwich Mean Time (GMT)</option>
+                        <option>GMT+1 Central European Time (CET)</option>
+                        <option>GMT+2 Eastern European Time (EET)</option>
+                        <option>GMT+3 Moscow Time (MSK)</option>
+                        <option>GMT+5 Pakistan Standard Time (PKT)</option>
+                        <option>GMT+8 China Standard Time (CST)</option>
+                        <option>GMT+10 Eastern Australia Standard Time (AEST)</option>
+                    </select>
                 </div>
             </div>
 
