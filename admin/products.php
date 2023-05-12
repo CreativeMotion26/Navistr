@@ -61,9 +61,11 @@ if(isset($_GET['delete'])){
                     </div>
                     <button class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clip-rule="evenodd" />
+                            <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
+                            <path d="M9.293 10.707a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L11.414 12H15a1 1 0 100-2H11.414l1.293-1.293a1 1 0 10-1.414-1.414l-2 2z"/>
                         </svg>
-                        View Categories
+                        View Category
+
 
                         
                     </button>
