@@ -139,7 +139,7 @@
                     </div>
                 </form>
             </div>
-    </div>
+    
     <div class="col-span-2">
         <div class="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800 xl:mb-0">
             <div class="flow-root">
@@ -251,6 +251,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 </html>
