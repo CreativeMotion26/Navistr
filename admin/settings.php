@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet">
+    <?php require __DIR__ . '/../inc/head.inc.php';?>
 </head>
 <body>
+    <?php require __DIR__ . '/inc/sidebar.inc.php';?>
 
     <div class="grid grid-cols-1 px-4 pt-6 xl:grid-cols-3 xl:gap-4 m dark:bg-gray-900 col-span-2">
 
