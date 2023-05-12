@@ -262,30 +262,42 @@ if(isset($_GET['delete'])){
                         </tr>
                         </thead>
                         <tbody>
-                        <tr class="bg-white border-b   hover:bg-gray-50">
-                            
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                Belt"
-                            </th>
-                            <td class="px-6 py-4">
-                                Samurai
-                            </td>
-                            <td class="px-6 py-4">
-                                A-grade
-                            </td>
-                        </tr>
-                        <tr class="bg-white border-b   hover:bg-gray-50">
-                            
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                Wallet"
-                            </th>
-                            <td class="px-6 py-4">
-                                Devil
-                            </td>
-                            <td class="px-6 py-4">
-                                A-grade
-                            </td>
-                        </tr>
+                            <tr class="bg-white border-b   hover:bg-gray-50">
+                                
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    Belt
+                                </th>
+                                <td class="px-6 py-4">
+                                    Samurai
+                                </td>
+                                <td class="px-6 py-4">
+                                    A-grade
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b   hover:bg-gray-50">
+                                
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    Wallet
+                                </th>
+                                <td class="px-6 py-4">
+                                    Devil
+                                </td>
+                                <td class="px-6 py-4">
+                                    A-grade
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b   hover:bg-gray-50">
+                                
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    Pants
+                                </th>
+                                <td class="px-6 py-4">
+                                    Chinos
+                                </td>
+                                <td class="px-6 py-4">
+                                    A-grade
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
