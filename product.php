@@ -1,262 +1,204 @@
-<html>
+<?php require __DIR__ . '/inc/functions.inc.php';?>
+<!DOCTYPE html>
+<html lang="en">
    <head>
-      <?php require __DIR__ . '/../inc/head.inc.php';?>
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet">
+      <?php require __DIR__ . '/inc/head.inc.php';?>
    </head>
-   <body>
+   <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
       <?php require __DIR__ . '/inc/header.inc.php';?>
-      <?php require __DIR__ . '/inc/sidebar.inc.php';?>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-      <div class="p-4 sm:ml-64">
-         <!--<section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">-->
-         <!-- Start coding here -->
-         <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
-            <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
-               <div class="w-full md:w-1/2">
-                  <form class="flex items-center">
-                     <label for="simple-search" class="sr-only">Search</label>
-                     <div class="relative w-full">
-                        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                           <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
-                           </svg>
-                        </div>
-                        <input type="text" id="simple-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Search" required="">
+         <section class = "mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8py-0 container mx-auto bg-white py-2 border-t border-orange-400">
+         <div class="relative mx-auto max-w-screen-xl px-4 py-8">
+            <div>
+               <h1 class="text-3xl text-orange-500 font-bold lg:text-3xl px-5">Simple Basic Bag</h1>
+            </div>
+               <nav aria-label="Breadcrumb">
+               <ol role="list" class="mx-auto flex max-w-2xl items-center space-x-2 px-4 py-2 sm:px-6 lg:max-w-7xl lg:px-4">
+                  <li>
+                     <div class="flex items-center">
+                        <a href="#" class="mr-2 text-sm font-medium text-gray-900">Bags</a>
+                        <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" aria-hidden="true" class="h-5 w-4 text-gray-300">
+                           <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
+                        </svg>
                      </div>
-                  </form>
-               </div>
-               <div class="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0">
-                  <button id="actionsDropdownButton" data-dropdown-toggle="actionsDropdown" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-blue-500 rounded-lg border border-gray-200 hover:bg-blue-600 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" type="button">
-                     <svg class="-ml-1 mr-1.5 w-5 h-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path clip-rule="evenodd" fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
+                  </li>
+                  <li>
+                     <div class="flex items-center">
+                        <a href="#" class="mr-2 text-sm font-medium text-gray-900">women's</a>
+                        <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" aria-hidden="true" class="h-5 w-4 text-gray-300">
+                           <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
+                        </svg>
+                     </div>
+                  </li>
+                  <li class="text-sm">
+                     <a href="#" aria-current="page" class="font-medium text-gray-500 hover:text-gray-600">Leather Bag</a>
+                  </li>
+               </ol>
+            </nav>   
+            <div class="grid gap-8 lg:grid-cols-4 lg:items-start">
+               <div class="lg:col-span-3">
+               <div class="relative mt-4">
+                  <img alt="bag" src="assets/images/i2.jpg" class="h-full w-full rounded-xl object-cover lg:h-[540px]"/>
+                  <div class="absolute bottom-4 left-1/2 inline-flex -translate-x-1/2 items-center rounded-full bg-black/75 px-3 py-1.5 text-white"  >
+                     <svg
+                     class="h-4 w-4"
+                     xmlns="http://www.w3.org/2000/svg"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke="currentColor"
+                     >
+                     <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"
+                     />
                      </svg>
-                     Add New Product
-                  </button>
-                  <div class="flex items-center space-x-3 w-full md:w-auto">
-                     <button id="actionsDropdownButton" data-dropdown-toggle="actionsDropdown" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" type="button">
-                        <svg class="-ml-1 mr-1.5 w-5 h-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                           <path clip-rule="evenodd" fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
-                        </svg>
-                        Actions
-                     </button>
-                     <div id="actionsDropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-                        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="actionsDropdownButton">
-                           <li>
-                              <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mass Edit</a>
-                           </li>
-                        </ul>
-                        <div class="py-1">
-                           <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete all</a>
+                  </div>
+               </div>
+               <ul class="mt-1 flex gap-1">
+                  <li>
+                     <img alt="Tee" src="assets/images/i1.jpg" class="h-16 w-16 rounded-md object-cover"/>
+                  </li>
+                  <li>
+                     <img alt="Tee" src="assets/images/i1.jpg" class="h-16 w-16 rounded-md object-cover"/>
+                  </li>
+                  <li>
+                     <img alt="Tee" src="assets/images/i1.jpg" class="h-16 w-16 rounded-md object-cover"/>
+                  </li>
+                  <li>
+                     <img alt="Tee" src="assets/images/i1.jpg" class="h-16 w-16 rounded-md object-cover"/>
+                  </li>
+               </ul>
+               </div>
+               <section>
+               <div class="lg:w-full w-full lg:pl-10 lg:py-6 mt-2 lg:mt-0">
+                     <h2 class="text-sm title-font text-gray-500 tracking-widest pb-3">BRAND NAME</h2>
+                     <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1>
+                     <p class="leading-relaxed pt-4">Natural skins, the skin of the artisan, real hide leather. Slight variations in colour shades and tones confirm the genuine work of the craftsman. Design, cutting, assembling and packaging made in Italy. Materials originating in Italy.</p>
+                     <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+                        <div class="flex">
+                           <span class="mr-3">Color</span>
+                           <button class="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
+                           <button class="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
+                           <button class="border-2 border-gray-300 ml-1 bg-orange-500 rounded-full w-6 h-6 focus:outline-none"></button>
+                        </div>
+                        <div class="flex ml-6 items-center">
+                           <span class="mr-3">Size</span>
+                           <div class="relative">
+                           <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10">
+                              <option>SM</option>
+                              <option>M</option>
+                              <option>L</option>
+                              <option>XL</option>
+                           </select>
+                           <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                                 <path d="M6 9l6 6 6-6"></path>
+                              </svg>
+                           </span>
+                           </div>
                         </div>
                      </div>
-                     <button id="filterDropdownButton" data-dropdown-toggle="filterDropdown" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewbox="0 0 20 20" fill="currentColor">
-                           <path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clip-rule="evenodd" />
-                        </svg>
-                        Filter
-                        <svg class="-mr-1 ml-1.5 w-5 h-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                           <path clip-rule="evenodd" fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
-                        </svg>
-                     </button>
-                     <div id="filterDropdown" class="z-10 hidden w-48 p-3 bg-white rounded-lg shadow dark:bg-gray-700">
-                        <h6 class="mb-3 text-sm font-medium text-gray-900 dark:text-white">Choose brand</h6>
-                        <ul class="space-y-2 text-sm" aria-labelledby="filterDropdownButton">
-                           <li class="flex items-center">
-                              <input id="apple" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                              <label for="apple" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">Apple (56)</label>
-                           </li>
-                           <li class="flex items-center">
-                              <input id="fitbit" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                              <label for="fitbit" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">Microsoft (16)</label>
-                           </li>
-                           <li class="flex items-center">
-                              <input id="razor" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                              <label for="razor" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">Razor (49)</label>
-                           </li>
-                           <li class="flex items-center">
-                              <input id="nikon" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                              <label for="nikon" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">Nikon (12)</label>
-                           </li>
-                           <li class="flex items-center">
-                              <input id="benq" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                              <label for="benq" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">BenQ (74)</label>
-                           </li>
-                        </ul>
+                  <fieldset>
+                     <legend class="text-lg font-bold">Material</legend>
+                     <div class="mt-2 flex flex-wrap gap-1">
+                     <label for="material_cotton" class="cursor-pointer pb-4">
+                        <input type="radio" id="material_cotton" name="material" class="peer sr-only" checked/>
+                        <span class="block rounded-full border border-gray-200 px-3 py-1 text-xs peer-checked:bg-gray-100"> Cotton </span>
+                     </label>
+                     <label for="material_wool" class="cursor-pointer pb-4">
+                        <input type="radio" id="material_wool" name="material" class="peer sr-only" checked/>
+                        <span class="block rounded-full border border-gray-200 px-3 py-1 text-xs peer-checked:bg-gray-100"> Wool </span>
+                     </label>
                      </div>
+                  </fieldset>
+                  <div class="rounded border bg-gray-100 p-4">
+                     <p class="text-sm">
+                     <span class="block"> Pay as low as $3/mo with 0% APR. </span>
+                     <a href="" class="mt-1 inline-block underline"> Find out more </a>
+                     </p>
+                  </div>
+                  <div>
+                     <p class="text-3xl font-bold py-4">199.99 AUD</p>
+                  </div>
+                  <a href="checkout.php">
+                  <button type="submit" class="w-full rounded bg-orange-500 px-6 py-4 text-sm font-bold uppercase tracking-wide text-white"> Add to carts</button>
+                  <button type="button" class="w-full rounded border border-gray-300 bg-gray-100 px-6 py-4 text-sm font-bold uppercase tracking-wide mt-4">Shop more</button>
+                  </a>
+               </form>
+               </div>
+            </div>
+         </div>
+         </section>
+         <section class="py-0 container mx-auto bg-white py-4 border-t border-orange-400">
+         <div class="py-2">
+            <div class="PageWidth --noBackgroundContainer PageWidth--large relative">
+               <div class="media absolute inset-0 flex justify-center items-center"></div>
+               <div class="textContentContainer z-10 w-full max-w-full justify-center">
+                  <div class="textContent-cover textContent-background py-2 flex flex-col items-center">
+                     <h4 class="text-orange-400 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
+                     <h1 class="text-xl md:text-2xl font-bold mb-4">Florentine's Recommand</h1>
                   </div>
                </div>
             </div>
-            <div class="overflow-x-auto">
-               <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                  <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                     <tr>
-                        <th scope="col" class="px-4 py-3"></th>
-                        <th scope="col" class="px-4 py-3">Product</th>
-                        <th scope="col" class="px-4 py-3">Product name</th>
-                        <th scope="col" class="px-4 py-3">Category</th>
-                        <th scope="col" class="px-4 py-3">Brand</th>
-                        <th scope="col" class="px-4 py-3">Stock</th>
-                        <th scope="col" class="px-4 py-3">Price</th>
-                        <th scope="col" class="px-4 py-3">
-                           <span class="sr-only">Actions</span>
-                        </th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <tr class="border-b dark:border-gray-700">
-                        <td class="w-4 px-4 py-3">
-                           <div class="flex items-center">
-                              <input id="checkbox-table-search-1" type="checkbox" onclick="event.stopPropagation()" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                              <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
-                           </div>
-                        </td>
-                        <th scope="row" class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                           <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/devices/apple-iphone-14.png" alt="iMac Front Image" class="w-auto h-8 mr-3">
-                        </th>
-                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Apple iMac 27&#34;</th>
-                        <td class="px-4 py-3">PC</td>
-                        <td class="px-4 py-3">Apple</td>
-                        <td class="px-4 py-3">300</td>
-                        <td class="px-4 py-3">$2999</td>
-                        <td class="px-4 py-3 flex items-center justify-end">
-                           <button id="apple-imac-27-dropdown-button" data-dropdown-toggle="apple-imac-27-dropdown" class="inline-flex items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100" type="button">
-                              <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
-                              </svg>
-                           </button>
-                           <div id="apple-imac-27-dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-                              <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="apple-imac-27-dropdown-button">
-                                 <li>
-                                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Show</a>
-                                 </li>
-                                 <li>
-                                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
-                                 </li>
-                              </ul>
-                              <div class="py-1">
-                                 <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete</a>
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                     <tr class="border-b dark:border-gray-700">
-                        <td class="w-4 px-4 py-3">
-                           <div class="flex items-center">
-                              <input id="checkbox-table-search-1" type="checkbox" onclick="event.stopPropagation()" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                              <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
-                           </div>
-                        </td>
-                        <th scope="row" class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                           <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/devices/apple-iphone-14.png" alt="iMac Front Image" class="w-auto h-8 mr-3">
-                        </th>
-                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Apple iMac 20&#34;</th>
-                        <td class="px-4 py-3">PC</td>
-                        <td class="px-4 py-3">Apple</td>
-                        <td class="px-4 py-3">200</td>
-                        <td class="px-4 py-3">$1499</td>
-                        <td class="px-4 py-3 flex items-center justify-end">
-                           <button id="apple-imac-20-dropdown-button" data-dropdown-toggle="apple-imac-20-dropdown" class="inline-flex items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100" type="button">
-                              <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
-                              </svg>
-                           </button>
-                           <div id="apple-imac-20-dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-                              <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="apple-imac-20-dropdown-button">
-                                 <li>
-                                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Show</a>
-                                 </li>
-                                 <li>
-                                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
-                                 </li>
-                              </ul>
-                              <div class="py-1">
-                                 <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete</a>
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                     <tr class="border-b dark:border-gray-700">
-                        <td class="w-4 px-4 py-3">
-                           <div class="flex items-center">
-                              <input id="checkbox-table-search-1" type="checkbox" onclick="event.stopPropagation()" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                              <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
-                           </div>
-                        </td>
-                        <th scope="row" class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                           <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/devices/apple-iphone-14.png" alt="iMac Front Image" class="w-auto h-8 mr-3">
-                        </th>
-                        <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">Apple iPhone 14</th>
-                        <td class="px-4 py-3">Phone</td>
-                        <td class="px-4 py-3">Apple</td>
-                        <td class="px-4 py-3">1237</td>
-                        <td class="px-4 py-3">$999</td>
-                        <td class="px-4 py-3 flex items-center justify-end">
-                           <button id="apple-iphone-14-dropdown-button" data-dropdown-toggle="apple-iphone-14-dropdown" class="inline-flex items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100" type="button">
-                              <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
-                              </svg>
-                           </button>
-                           <div id="apple-iphone-14-dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-                              <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="apple-iphone-14-dropdown-button">
-                                 <li>
-                                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Show</a>
-                                 </li>
-                                 <li>
-                                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
-                                 </li>
-                              </ul>
-                              <div class="py-1">
-                                 <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete</a>
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-            </div>
-            <nav class="flex flex-col md:flex-row justify-between items-start md:items-center space-y-3 md:space-y-0 p-4" aria-label="Table navigation">
-               <span class="text-sm font-normal text-gray-500 dark:text-gray-400">
-               Showing
-               <span class="font-semibold text-gray-900 dark:text-white">1-10</span>
-               of
-               <span class="font-semibold text-gray-900 dark:text-white">1000</span>
-               </span>
-               <ul class="inline-flex items-stretch -space-x-px">
-                  <li>
-                     <a href="#" class="flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
-                        <span class="sr-only">Previous</span>
-                        <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                           <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
-                  </li>
-                  <li>
-                     <a href="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
-                  </li>
-                  <li>
-                     <a href="#" aria-current="page" class="flex items-center justify-center text-sm z-10 py-2 px-3 leading-tight text-primary-600 bg-primary-50 border border-primary-300 hover:bg-primary-100 hover:text-primary-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">3</a>
-                  </li>
-                  <li>
-                     <a href="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">...</a>
-                  </li>
-                  <li>
-                     <a href="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">100</a>
-                  </li>
-                  <li>
-                     <a href="#" class="flex items-center justify-center h-full py-1.5 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
-                        <span class="sr-only">Next</span>
-                        <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                           <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
-                     </a>
-                  </li>
-               </ul>
-            </nav>
          </div>
-         <!--</section>-->   
-      </div>
+      </section>
+      <section>
+         <div class="grid grid-flow-col grid-rows-1 grid-cols-4 gap-8 px-20 pb-2" >
+            <div>
+               <img class = "rounded-xl" src="assets/images/item3.jpg" alt="" loading = "lazy">
+               <h3 class = "pt-3 flex align-center justify-center ">Classic Leather Bag</h3>
+               <p class = " flex align-center justify-center">$249.99</p>
+            </div>
+            <div class="col-start-3">
+               <img  class = "rounded-xl" src="assets/images/item4.jpg" alt="" loading = "lazy">
+               <h3 class = "pt-3 flex align-center justify-center">Sleek Leather Tote</h3>
+               <p class = " flex align-center justify-center">$299.99</p>
+            </div>
+            <div>
+               <img  class = "rounded-xl" src="assets/images/item6.jpg" alt="" loading = "lazy">
+               <h3 class = "pt-3 flex align-center justify-center"> Bortoletti Writing Set</h3>
+               <p class = " flex align-center justify-center">$99.99</p>
+            </div>
+            <div>
+               <img  class = "rounded-xl" src="assets/images/item6.jpg" alt="" loading = "lazy">
+               <h3 class = "pt-3 flex align-center justify-center"> Bortoletti Writing Set</h3>
+               <p class = " flex align-center justify-center">$99.99</p>
+            </div>
+         </div>
+         <div></div>
+      </section>
+       <div class="container my-2 px-6 mx-auto py-0 mx-auto bg-white py-4 border-t border-orange-400">
+            <div class="2xl:container 2xl:mx-auto md:py-10 py-2">
+               <div class="bg-gray-50 dark:bg-gray-800 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-2 md:px-12 px-4">
+                  <div class="">
+                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1.svg" alt="delivery">
+                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1dark.svg" alt="delivery">
+                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Delivery</h3>
+                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Free worldwide delivery over orders above $100</p>
+                  </div>
+                  <div class="">
+                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2.svg" alt="Customer Care">
+                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2dark.svg" alt="Customer Care">
+                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Customer Care</h3>
+                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Our customer care is available 24/7 at <span class="font-semibold cursor-pointer">(02) 9264 6055</span> and <span class="font-semibold cursor-pointer">sales@florentineaustralia.com</span></p>
+                  </div>
+                  <div class="">
+                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3.svg" alt="Recycle">
+                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3dark.svg" alt="Recycle">
+                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Recycle</h3>
+                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">All out products are 100 percent recycable</p>
+                  </div>
+                  <div class="">
+                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4.svg" alt="Secure Payment">
+                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4dark.svg" alt="Secure Payment">
+                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Secure Payment</h3>
+                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Transaction process has end to end encryption</p>
+                  </div>
+               </div>
+            </div>
+            </div>
+         </main>
+      <?php require __DIR__ . '/inc/footer.inc.php';?>
    </body>
 </html>

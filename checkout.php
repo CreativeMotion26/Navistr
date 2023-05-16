@@ -6,132 +6,106 @@
    </head>
    <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
       <?php require __DIR__ . '/inc/header.inc.php';?>
-      <div class="container my-2 px-6 mx-auto">
-         <!-- Section: Design Block -->
-         <section class="mb-32 text-gray-800">
-            <div class="block rounded-lg shadow-lg bg-white">
-               <div class="flex flex-wrap items-center">
-                  <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
-                     <img src="assets/images/contact.jpg" alt="Trendy Pants and Shoes"
-                        class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
-                  </div>
-                  <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
-                     <div class="px-6 py-12 md:px-12">
-                        <h2 class="text-3xl font-bold mb-6 pb-2">One-time payment</h2>
-                        <p class="text-gray-500 mb-6 pb-2">
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A soluta corporis
-                           voluptate ab error quam dolores doloremque, quae consectetur.
-                        </p>
-                        <div class="flex flex-wrap mb-6">
-                           <div class="w-full lg:w-6/12 xl:w-4/12 mb-4">
-                              <p class="flex items-center">
-                                 <svg class="w-4 h-4 mr-2 text-green-600" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512">
-                                    <path fill="currentColor"
-                                       d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
-                                    </path>
-                                 </svg>
-                                 Support 24/7
-                              </p>
-                           </div>
-                           <div class="w-full lg:w-6/12 xl:w-4/12 mb-4">
-                              <p class="flex items-center">
-                                 <svg class="w-4 h-4 mr-2 text-green-600" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512">
-                                    <path fill="currentColor"
-                                       d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
-                                    </path>
-                                 </svg>
-                                 Analytics
-                              </p>
-                           </div>
-                           <div class="w-full lg:w-6/12 xl:w-4/12 mb-4">
-                              <p class="flex items-center">
-                                 <svg class="w-4 h-4 mr-2 text-green-600" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512">
-                                    <path fill="currentColor"
-                                       d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
-                                    </path>
-                                 </svg>
-                                 Components
-                              </p>
-                           </div>
-                           <div class="w-full lg:w-6/12 xl:w-4/12 mb-4">
-                              <p class="flex items-center">
-                                 <svg class="w-4 h-4 mr-2 text-green-600" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512">
-                                    <path fill="currentColor"
-                                       d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
-                                    </path>
-                                 </svg>
-                                 Updates
-                              </p>
-                           </div>
-                           <div class="w-full lg:w-6/12 xl:w-4/12 mb-4">
-                              <p class="flex items-center">
-                                 <svg class="w-4 h-4 mr-2 text-green-600" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512">
-                                    <path fill="currentColor"
-                                       d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
-                                    </path>
-                                 </svg>
-                                 Reports
-                              </p>
-                           </div>
-                           <div class="w-full lg:w-6/12 xl:w-4/12 mb-4">
-                              <p class="flex items-center">
-                                 <svg class="w-4 h-4 mr-2 text-green-600" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512">
-                                    <path fill="currentColor"
-                                       d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z">
-                                    </path>
-                                 </svg>
-                                 Mobile
-                              </p>
-                           </div>
+      <section class=" container py-0 mx-auto bg-white py-4 border-t border-orange-400">
+      <div class="py-4 px-4 md:px-6 2xl:px-0 flex justify-center items-center 2xl:mx-auto 2xl:container">
+            <div class="flex flex-col justify-start items-start w-full space-y-9">
+                <div class="flex justify-start flex-col items-start space-y-2">
+                    <button class="flex flex-row items-center text-gray-600 dark:text-white hover:text-gray-500 space-x-1">
+                        <svg class="fill-stroke" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.91681 7H11.0835" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M2.91681 7L5.25014 9.33333" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M2.91681 7.00002L5.25014 4.66669" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <p class="text-sm leading-none">Back</p>
+                    </button>
+                    <p class="text-3xl lg:text-4xl font-semibold leading-7 lg:leading-9 text-orange-500 dark:text-gray-50">Checkout</p>
+                    <p class="text-base leading-normal sm:leading-4 text-gray-600 dark:text-white">Home / Products / Leather / Bags / Checkout</p>
+                </div>
+    
+                <div class="flex flex-col xl:flex-row justify-center xl:justify-between space-y-6 xl:space-y-0 xl:space-x-6 w-full">
+                    <div class="xl:w-3/5 flex flex-col sm:flex-row xl:flex-col justify-center items-center bg-gray-100 dark:bg-gray-800 py-7 sm:py-0 xl:py-10 px-10 xl:w-full">
+                        <div class="flex flex-col justify-start items-start w-full space-y-4">
+                            <p class="text-xl md:text-2xl leading-normal text-gray-800 dark:text-gray-50">Leather Bag</p>
+                            <p class="text-base font-semibold leading-none text-gray-600 dark:text-white">$520.00</p>
                         </div>
-                        <button type="button"
-                           class="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                           data-mdb-ripple="true" data-mdb-ripple-color="light">
-                        Buy now
+                        <div class="mt-6 sm:mt-0 xl:my-10 xl:px-20 w-52 sm:w-96 xl:w-auto">
+                            <img src="assets/images/i2.jpg" alt="bags" />
+                        </div>
+                    </div>
+    
+                    <div class="p-8 bg-gray-100 dark:bg-gray-800 flex flex-col lg:w-full xl:w-3/5">
+                        <button class="border border-transparent hover:border-gray-300 bg-orange-500 dark:bg-white dark:hover:bg-gray-900 dark:hover:border-gray-900 dark:text-gray-900 dark:hover:text-white hover:bg-white text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 py-4 rounded w-full">
+                            <div>
+                                <svg class="fill-current" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.9099 4.27692C9.6499 4.27692 9.1174 4.87817 8.2399 4.87817C7.34021 4.87817 6.65396 4.28129 5.56208 4.28129C4.49333 4.28129 3.35365 4.93379 2.6299 6.04535C1.61365 7.61285 1.78615 10.565 3.43208 13.08C4.02083 13.9804 4.80708 14.99 5.83833 15.001H5.85708C6.75333 15.001 7.01958 14.4141 8.25302 14.4072H8.27177C9.48677 14.4072 9.73052 14.9975 10.623 14.9975H10.6418C11.673 14.9866 12.5015 13.8679 13.0902 12.971C13.514 12.326 13.6715 12.0022 13.9965 11.2725C11.6155 10.3688 11.233 6.99348 13.5877 5.69942C12.869 4.79942 11.859 4.27817 10.9068 4.27817L10.9099 4.27692Z"
+                                        fill="currentColor"
+                                    />
+                                    <path d="M10.6338 1C9.88379 1.05094 9.00879 1.52844 8.49629 2.15188C8.03129 2.71688 7.64879 3.555 7.79879 4.36781H7.85879C8.65754 4.36781 9.47504 3.88688 9.95254 3.27063C10.4125 2.68406 10.7613 1.85281 10.6338 1V1Z" fill="currentColor" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-base leading-4">Pay</p>
+                            </div>
                         </button>
-                     </div>
-                  </div>
-               </div>
+                        <div class="flex flex-row justify-center items-center mt-6">
+                            <hr class="border w-full" />
+                            <p class="flex flex-shrink-0 px-4 text-base leading-4 text-gray-600 dark:text-white">or pay with card</p>
+                            <hr class="border w-full" />
+                        </div>
+    
+                        <div class="mt-8">
+                            <input class="border border-gray-300 p-4 rounded w-full text-base leading-4 placeholder-gray-600 text-gray-600" type="email" name="" id="" placeholder="Email" />
+                        </div>
+    
+                        <label class="mt-8 text-base leading-4 text-gray-800 dark:text-gray-50">Card details</label>
+                        <div class="mt-2 flex-col">
+                            <div>
+                                <input class="border rounded-tl rounded-tr border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600" type="email" name="" id="" placeholder="0000 1234 6549 15151" />
+                            </div>
+                            <div class="flex-row flex">
+                                <input class="border rounded-bl border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600" type="email" name="" id="" placeholder="MM/YY" />
+                                <input class="border rounded-br border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600" type="email" name="" id="" placeholder="CVC" />
+                            </div>
+                        </div>
+    
+                        <label class="mt-8 text-base leading-4 text-gray-800 dark:text-gray-50">Name on card</label>
+                        <div class="mt-2 flex-col">
+                            <div>
+                                <input class="border rounded border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600" type="email" name="" id="" placeholder="Name on card" />
+                            </div>
+                        </div>
+    
+                        <label class="mt-8 text-base leading-4 text-gray-800 dark:text-gray-50">Country or region</label>
+                        <div class="mt-2 flex-col">
+                            <div class="relative ">
+                                <button id="changetext" class="text-left border rounded-tr rounded-tl border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600 bg-white" type="email" name="" id="">United States</button>
+                               
+                                   <img onclick="showMenu(true)" id="closeIcon" class="cursor-pointer absolute top-4 right-4 dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/checkouts-1-svg1.svg" alt="Dropdown">
+                                    <img onclick="showMenu(true)" id="openIcon" class="cursor-pointer hidden transform rotate-180 absolute top-4 right-4 hidden transform rotate-180 dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/checkouts-1-svg1.svg" alt="Dropdown">
+                                    <img onclick="showMenu(true)" id="closeIcon" class="cursor-pointer absolute top-4 right-4 hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/checkouts-1-svg1dark.svg" alt="Dropdown">
+                                    <img onclick="showMenu(true)" id="openIcon" class="cursor-pointer hidden transform rotate-180 absolute top-4 right-4 hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/checkouts-1-svg1dark.svg" alt="Dropdown">
+                                <div id="dropdown" class=" hidden  z-10 w-full flex bg-gray-50 justify-start flex-col text-gray-600">
+                                    <div onclick="changeText('China')" class="cursor-pointer hover:bg-gray-800 hover:text-white px-4 py-2">China</div>
+                                    <div onclick="changeText('Russia')" class="cursor-pointer hover:bg-gray-800 hover:text-white px-4 py-2">Russia</div>
+                                    <div onclick="changeText('UK')" class="cursor-pointer hover:bg-gray-800 hover:text-white px-4 py-2">UK</div>
+                                </div>
+                            </div>
+                            <input class="border rounded-bl rounded-br border-gray-300 p-4 w-full text-base leading-4 placeholder-gray-600 text-gray-600" type="text" name="" id="" placeholder="ZIP" />
+                        </div>
+                        <a href = "summary.php">
+                        <button class="mt-8 border border-transparent hover:border-gray-300 dark:bg-white dark:hover:bg-gray-900 dark:text-gray-900 dark:hover:text-white dark:border-transparent bg-gray-900 hover:bg-white text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full">
+                            <div>
+                                <p class="text-base leading-4">Pay $54652</p>
+                            </div>
+                        </button>
+                        </a>
+                    </div>
+                </div>
             </div>
+          </div>
+          </div>
          </section>
-         <!-- Section: Design Block -->
-         <div class="container my-8 px-2 mx-auto">
-            <section class="text-gray-600 body-font relative">
-               <div class="container px-5 mx-auto flex sm:flex-nowrap flex-wrap">
-                  <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-                     <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps?q=Shop%2022,%202nd%20Floor,%20Queen%20Victoria%20Building,%20Sydney&z=13&output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
-                     <div class="bg-white relative flex flex-wrap py-3 rounded shadow-md">
-                        <div class="lg:w-1/2 px-6">
-                           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                           <p class="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
-                        </div>
-                        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                           <a class="text-orange-500 leading-relaxed">example@email.com</a>
-                           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                           <p class="leading-relaxed">123-456-7890</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                     <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-                     <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
-                     <div class="relative mb-4"> <label for="name" class="leading-7 text-sm text-gray-600">Name</label> <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"> </div>
-                     <div class="relative mb-4"> <label for="email" class="leading-7 text-sm text-gray-600">Email</label> <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"> </div>
-                     <div class="relative mb-4"> <label for="message" class="leading-7 text-sm text-gray-600">Message</label> <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea> </div>
-                     <button class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">Button</button>
-                     <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
-                  </div>
-               </div>
-            </section>
-         </div>
-      </div>
       <?php require __DIR__ . '/inc/footer.inc.php';?>
    </body>
 </html>
