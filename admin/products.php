@@ -54,6 +54,13 @@ if(isset($_POST['add_category'])){
                 </button>-->
                 <div class="flex items-center space-x-2 w-full md:w-auto">
                     </div>
+                    <a href="/admin/addProduct" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
+                            <path d="M9.293 10.707a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L11.414 12H15a1 1 0 100-2H11.414l1.293-1.293a1 1 0 10-1.414-1.414l-2 2z"/>
+                        </svg>
+                        Add Product
+                    </a>
                     <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
