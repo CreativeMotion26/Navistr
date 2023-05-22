@@ -15,7 +15,7 @@ if(isset($_GET['delete'])){
 }
 if(isset($_POST['add_category'])){
     $name = mysqli_real_escape_string($conn, $_GET['name']);
-    mysqli_query($conn,"REPLACE INTO category WHERE name='$name'");
+    mysqli_query($conn,"REPLACE INTO categories WHERE name='$name'");
 }
 ?>
 <!doctype html>
@@ -261,7 +261,7 @@ if(isset($_POST['add_category'])){
                         </tr>
                         </thead>
                         <tbody>
-                            <?php $result = mysqli_query($conn,"SELECT name FROM category");
+                            <?php $result = mysqli_query($conn,"SELECT name FROM categories");
                             while($row = mysqli_fetch_assoc($result)){?>
                                 <tr class="bg-white border-b hover:bg-gray-50">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
