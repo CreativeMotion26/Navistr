@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php require __DIR__ . '/inc/sidebar.inc.php';?>
-    <section class="top-0 left-0 right-0 z-50  w-full p-4 translate-y-10 overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full w-full max-w-2xl max-h-full bg-white rounded-lg shadow p-6 space-y-6 bg-white transform -translate-y-16 px-4 mx-auto max-w-2xl lg:py-16">
+    <section class="p-4 md:inset-0 h-[calc(100%-1rem)] rounded-lg shadow p-6 space-y-6 mx-auto lg:py-16">
         <h2 class="mb-4 text-xl font-bold text-gray-900">Add a new product</h2>
         <form action="/admin/products" method="POST">
             <input name="add_product" type="hidden">
