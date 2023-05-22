@@ -7,6 +7,7 @@ if(isset($_POST['add_product'])){
     $sku = mysqli_real_escape_string($conn, $_POST['sku']);
     $stock = mysqli_real_escape_string($conn, $_POST['stock']);
     mysqli_query($conn,"REPLACE INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
+    echo 'Product added successfully';
 }
 if(isset($_GET['delete'])){
     $sku = mysqli_real_escape_string($conn, $_GET['delete']);

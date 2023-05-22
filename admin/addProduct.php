@@ -1,4 +1,4 @@
-  <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <?php require __DIR__ . '/../inc/head.inc.php';?>
