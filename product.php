@@ -6,8 +6,8 @@
    </head>
    <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
       <?php require __DIR__ . '/inc/header.inc.php';?>
-         <section class = "mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8py-0 container mx-auto bg-white py-2 border-t border-orange-400">
-         <div class="relative mx-auto max-w-screen-xl px-4 py-8">
+         <section class = "mx-auto flex max-w-2xl items-center space-x-2 px-10 sm:px-10 lg:max-w-4xl lg:px-8py-0 container mx-auto bg-white py-2 border-t border-orange-400">
+         <div class="relative mx-auto max-w-screen-xl px-10 py-8">
             <div>
                <h1 class="text-3xl text-orange-500 font-bold lg:text-3xl px-5">Simple Basic Bag</h1>
             </div>
@@ -55,6 +55,7 @@
                      </svg>
                   </div>
                </div>
+               <div class = "flex content-center items-center  justify-center">
                <ul class="mt-1 flex gap-1">
                   <li>
                      <img alt="Tee" src="assets/images/i1.jpg" class="h-16 w-16 rounded-md object-cover"/>
@@ -70,7 +71,9 @@
                   </li>
                </ul>
                </div>
-               <section>
+               </div>
+            </div>
+            <section>
                <div class="lg:w-full w-full lg:pl-10 lg:py-6 mt-2 lg:mt-0">
                      <h2 class="text-sm title-font text-gray-500 tracking-widest pb-3">BRAND NAME</h2>
                      <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1>
@@ -128,7 +131,6 @@
                </form>
                </div>
             </div>
-         </div>
          </section>
          <section class="py-0 container mx-auto bg-white py-4 border-t border-orange-400">
          <div class="py-2">
