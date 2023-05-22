@@ -13,6 +13,10 @@ if(isset($_GET['delete'])){
     $sku = mysqli_real_escape_string($conn, $_GET['delete']);
     mysqli_query($conn, "DELETE FROM product WHERE sku='$sku'");
 }
+if(isset($_GET['delete_category'])){
+    $name = mysqli_real_escape_string($conn, $_GET['delete_category']);
+    mysqli_query($conn, "DELETE FROM categories WHERE name='$name'");
+}
 if(isset($_POST['add_category'])){
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     mysqli_query($conn, "REPLACE INTO categories (name) VALUES ('$name')");
@@ -257,6 +261,7 @@ if(isset($_POST['add_category'])){
                             <th scope="col" class="px-6 py-3">
                                 Name
                             </th>
+                            <th scope="col" class="px-6 py-3"></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -265,6 +270,9 @@ if(isset($_POST['add_category'])){
                                 <tr class="bg-white border-b hover:bg-gray-50">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                                         <?php echo $row['name'];?>
+                                    </th>
+                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    <a href="?delete_category=<?php echo $row['name'];?>" class="inline-flex items-center px-2 py-1 text-sm font-medium text-center text-white bg-red-700 rounded-lg focus:ring-4">Delete</a>
                                     </th>
                                 </tr>
                             <?php }?>
