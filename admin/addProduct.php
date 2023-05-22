@@ -50,9 +50,14 @@
                                     </div>
 
                                 </div>
-                                <button type="submit" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-primary-200  hover:bg-primary-800">
-                                    Add product
-                                </button>
+                                <div class="flex">
+                                    <button type="submit" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-primary-200  hover:bg-primary-800">
+                                        Add product
+                                    </button>
+                                    <a href="/admin/addProduct" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-primary-200  hover:bg-primary-800">
+                                        Cancel
+                                    </a>
+                                </div>
                             </form>
                         </div>
                     </section>
