@@ -13,6 +13,10 @@ if(isset($_GET['delete'])){
     $sku = mysqli_real_escape_string($conn, $_GET['delete']);
     mysqli_query($conn,"DELETE FROM product WHERE sku='$sku'");
 }
+if(isset($_POST['add_category'])){
+    $name = mysqli_real_escape_string($conn, $_GET['name']);
+    mysqli_query($conn,"REPLACE INTO category WHERE name='$name'");
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -59,7 +63,7 @@ if(isset($_GET['delete'])){
                             <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
                             <path d="M9.293 10.707a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L11.414 12H15a1 1 0 100-2H11.414l1.293-1.293a1 1 0 10-1.414-1.414l-2 2z"/>
                         </svg>
-                        View Category
+                        View Categories
                     </button>
                     <div id="filterDropdown" class="z-10 hidden w-48 p-3 bg-white rounded-lg shadow">
                         <h6 class="mb-3 text-sm font-medium text-gray-900">Choose brand</h6>
@@ -238,7 +242,7 @@ if(isset($_GET['delete'])){
                 <!-- Modal header -->
                 <div class="flex items-start justify-between p-4 border-b rounded-t">
                     <h3 class="text-xl font-semibold text-gray-900">
-                        View Category
+                        View Categories
                     </h3>
                     <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center" data-modal-hide="defaultModal1">
                         <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -252,53 +256,19 @@ if(isset($_GET['delete'])){
                         <tr>
                           
                             <th scope="col" class="px-6 py-3">
-                                Category Name
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Brand
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Type
+                                Name
                             </th>
                         </tr>
                         </thead>
                         <tbody>
-                            <tr class="bg-white border-b   hover:bg-gray-50">
-                                
-                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    Belt
-                                </th>
-                                <td class="px-6 py-4">
-                                    Samurai
-                                </td>
-                                <td class="px-6 py-4">
-                                    A-grade
-                                </td>
-                            </tr>
-                            <tr class="bg-white border-b   hover:bg-gray-50">
-                                
-                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    Wallet
-                                </th>
-                                <td class="px-6 py-4">
-                                    Devil
-                                </td>
-                                <td class="px-6 py-4">
-                                    A-grade
-                                </td>
-                            </tr>
-                            <tr class="bg-white border-b   hover:bg-gray-50">
-                                
-                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    Pants
-                                </th>
-                                <td class="px-6 py-4">
-                                    Chinos
-                                </td>
-                                <td class="px-6 py-4">
-                                    A-grade
-                                </td>
-                            </tr>
+                            <?php $result = mysqli_query($conn,"SELECT name FROM category");
+                            while($row = mysqli_fetch_assoc($result)){?>
+                                <tr class="bg-white border-b hover:bg-gray-50">
+                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                        <?php echo $row['name'];?>
+                                    </th>
+                                </tr>
+                            <?php }?>
                         </tbody>
                     </table>
                 </div>
