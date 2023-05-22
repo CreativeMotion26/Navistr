@@ -58,7 +58,6 @@
                            </div>
                         </div>
                      </li>
-                     <!-- More products... -->
                   </ul>
                </div>
             </div>
@@ -66,11 +65,11 @@
          <div class="border-t border-gray-200 px-4 py-6 sm:px-6">
             <div class="flex justify-between text-base font-medium text-gray-900">
                <p>Subtotal</p>
-               <p>$122.00</p>
+               <p class="text-2xl">$122.00</p>
             </div>
             <p class="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
             <div class="mt-6">
-               <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-orange-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-orange-600">Checkout</a>
+               <a href="checkout.php" class="flex items-center justify-center rounded-md border border-transparent bg-orange-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-orange-600">Checkout</a>
             </div>
             <div class="mt-6 flex justify-center text-center text-sm text-gray-500">
                <p>
