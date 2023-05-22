@@ -15,7 +15,7 @@ if(isset($_GET['delete'])){
 }
 if(isset($_POST['add_category'])){
     $name = mysqli_real_escape_string($conn, $_POST['name']);
-    mysqli_query($conn, "REPLACE INTO categories WHERE name='$name'");
+    mysqli_query($conn, "REPLACE INTO categories (name) VALUES ('$name')");
 }
 ?>
 <!doctype html>
