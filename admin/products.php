@@ -53,7 +53,6 @@ if(isset($_POST['add_category'])){
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M15 5a1 1 0 00-1-1h-3.586l-.707-.707A1 1 0 009.293 3H7a1 1 0 00-1 1v1H4a1 1 0 000 2h1v7a2 2 0 002 2h6a2 2 0 002-2V9h1a1 1 0 000-2h-2V5zm-6-.414L11.414 9H9a1 1 0 01-.707-.293L7.586 7.586zM8 10a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
                         </svg>
-
                         Delete Category
                     </button>
                
@@ -63,7 +62,7 @@ if(isset($_POST['add_category'])){
                             <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
                             <path d="M9.293 10.707a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L11.414 12H15a1 1 0 100-2H11.414l1.293-1.293a1 1 0 10-1.414-1.414l-2 2z"/>
                         </svg>
-                        View Categories
+                        Categories
                     </button>
                     <div id="filterDropdown" class="z-10 hidden w-48 p-3 bg-white rounded-lg shadow">
                         <h6 class="mb-3 text-sm font-medium text-gray-900">Choose brand</h6>
@@ -242,7 +241,7 @@ if(isset($_POST['add_category'])){
                 <!-- Modal header -->
                 <div class="flex items-start justify-between p-4 border-b rounded-t">
                     <h3 class="text-xl font-semibold text-gray-900">
-                        View Categories
+                        Categories
                     </h3>
                     <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center" data-modal-hide="defaultModal1">
                         <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -251,10 +250,10 @@ if(isset($_POST['add_category'])){
                 </div>
                 <!-- Modal body -->
                 <div class="p-6 space-y-6">
+                    <a href="/addCategory" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-primary-200 hover:bg-primary-800">Add Category</a>
                     <table class="w-full text-sm text-left text-gray-500">
                         <thead class="text-xs text-gray-700 uppercase bg-gray-50">
                         <tr>
-                          
                             <th scope="col" class="px-6 py-3">
                                 Name
                             </th>
