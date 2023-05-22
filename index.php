@@ -21,7 +21,7 @@
             </div>
          </div>
       </section>
-      <section class="py-2 container mx-auto bg-white py-4 border-t border-orange-400 mt-6">
+      <section class="py-2 container mx-auto bg-white py-4 border-t border-orange-400 mt-6 ">
          <div class="py-4 px-20">
             <div class="PageWidth PageWidth--large relative">
                <div class="media absolute inset-0 flex justify-center items-center"></div>
