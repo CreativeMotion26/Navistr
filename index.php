@@ -8,7 +8,7 @@
          <div class="relative overflow-hidden bg-cover bg-no-repeat" style="
             background-position: 50%;
             background-image: url('assets/images/Main.jpg');
-            height: 450px;
+            height: 100%;
             ">
             <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.35)">
                <div class="flex h-full items-center justify-center">
@@ -21,7 +21,7 @@
             </div>
          </div>
       </section>
-      <section class="py-2 container mx-auto bg-white py-4 border-t border-orange-400">
+      <section class="py-2 container mx-auto bg-white py-4 border-t border-orange-400 mt-6">
          <div class="py-4 px-20">
             <div class="PageWidth PageWidth--large relative">
                <div class="media absolute inset-0 flex justify-center items-center"></div>
@@ -200,10 +200,7 @@
                               >
                               <div>
                                  <input type="checkbox" id="ColorSg" class="sr-only" />
-                                 <label
-                                    for="ColorSg"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
-                                    >
+                                 <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
                                  <span class="sr-only"> Space Gray </span>
                                  </label>
                               </div>
@@ -247,11 +244,7 @@
                         </form>
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
-                        <h3
-                           class="text-gray-900 group-hover:underline group-hover:underline-offset-4"
-                           >
-                           leather bag
-                        </h3>
+                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl">leather bag</h3>
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
                   </div>
@@ -276,10 +269,7 @@
                               >
                               <div>
                                  <input type="checkbox" id="ColorSg" class="sr-only" />
-                                 <label
-                                    for="ColorSg"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
-                                    >
+                                 <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
                                  <span class="sr-only"> Space Gray </span>
                                  </label>
                               </div>
@@ -315,9 +305,7 @@
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
                         <h3
-                           class="text-gray-900 group-hover:underline group-hover:underline-offset-4"
-                           >
-                           Small bag
+                           class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl">Small bag
                         </h3>
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
@@ -372,7 +360,7 @@
                         </form>
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4" >Big bag</h3>
+                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl" >Big bag</h3>
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
                   </div>
@@ -411,7 +399,7 @@
                         </form>
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4" >Leather Bag</h3>
+                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl" >Leather Bag</h3>
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
                   </div>
@@ -444,7 +432,7 @@
                         </form>
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4">Hand bag</h3>
+                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl">Hand bag</h3>
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
                   </div>
@@ -483,7 +471,7 @@
                         </form>
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4"> Nice bag</h3>
+                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl"> Nice bag</h3>
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
                   </div>
