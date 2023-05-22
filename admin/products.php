@@ -106,7 +106,6 @@ if(isset($_GET['delete'])){
                 </thead>
                 <tbody id="table_content">
                     <?php $result = mysqli_query($conn,"SELECT sku, name, price, description, stock FROM product");
-                    var_dump(mysqli_num_rows($result));
                     while($row = mysqli_fetch_assoc($result)){?>
                         <tr class="border-b">
                             <td class="w-4 px-4 py-3">
