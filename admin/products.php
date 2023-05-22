@@ -6,16 +6,16 @@ if(isset($_POST['add_product'])){
     $price = mysqli_real_escape_string($conn, $_POST['price']);
     $sku = mysqli_real_escape_string($conn, $_POST['sku']);
     $stock = mysqli_real_escape_string($conn, $_POST['stock']);
-    mysqli_query($conn,"REPLACE INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
+    mysqli_query($conn, "REPLACE INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
     echo 'Product added successfully';
 }
 if(isset($_GET['delete'])){
     $sku = mysqli_real_escape_string($conn, $_GET['delete']);
-    mysqli_query($conn,"DELETE FROM product WHERE sku='$sku'");
+    mysqli_query($conn, "DELETE FROM product WHERE sku='$sku'");
 }
 if(isset($_POST['add_category'])){
-    $name = mysqli_real_escape_string($conn, $_GET['name']);
-    mysqli_query($conn,"REPLACE INTO categories WHERE name='$name'");
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    mysqli_query($conn, "REPLACE INTO categories WHERE name='$name'");
 }
 ?>
 <!doctype html>
