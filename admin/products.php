@@ -31,67 +31,56 @@ if(isset($_POST['add_category'])){
 <?php require __DIR__ . '/inc/sidebar.inc.php';?>
     <div class="bg-white relative shadow-md sm:rounded-lg overflow-hidden">
         <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
-            <div class="w-full md:w-1/2">
-                <form class="flex items-center">
-                    <label for="search-bar" class="sr-only">Search</label>
-                    <div class="relative w-full">
-                        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                            <svg aria-hidden="true" class="w-5 h-5 text-gray-500" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
-                            </svg>
-                        </div>
-                        <input type="text" id="search-bar" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2" placeholder="Search" required="">
+            <form class="w-full md:w-1/2 flex items-center">
+                <label for="search-bar" class="sr-only">Search</label>
+                <div class="relative w-full">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                        </svg>
                     </div>
-                </form>
-            </div>
-            <div class="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0">
-                <!--<button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-white focus:outline-none bg-blue-500 rounded-lg border border-gray-200 hover:bg-blue-400 hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
-                    Add New Product
+                    <input type="text" id="search-bar" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2" placeholder="Search" required="">
+                </div>
+            </form>
+            <div class="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0 flex items-center space-x-2 w-full md:w-auto">
+                <a href="/admin/addProduct" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
+                        <path d="M9.293 10.707a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L11.414 12H15a1 1 0 100-2H11.414l1.293-1.293a1 1 0 10-1.414-1.414l-2 2z"/>
+                    </svg>
+                    Add Product
+                </a>
+                <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
+                        <path d="M9.293 10.707a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L11.414 12H15a1 1 0 100-2H11.414l1.293-1.293a1 1 0 10-1.414-1.414l-2 2z"/>
+                    </svg>
+                    Categories
                 </button>
-                <button data-modal-target="defaultModal2" data-modal-toggle="defaultModal2" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-black focus:outline-none bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-200 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
-                    Add New Category
-                </button>-->
-                <div class="flex items-center space-x-2 w-full md:w-auto">
-                    </div>
-                    <a href="/admin/addProduct" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
-                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
-                            <path d="M9.293 10.707a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L11.414 12H15a1 1 0 100-2H11.414l1.293-1.293a1 1 0 10-1.414-1.414l-2 2z"/>
-                        </svg>
-                        Add Product
-                    </a>
-                    <button data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="w-full md:w-auto flex items-center justify-center py-2 px-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-4 w-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15zM10 19a9 9 0 100-18 9 9 0 000 18z"/>
-                            <path d="M9.293 10.707a1 1 0 000 1.414l2 2a1 1 0 001.414-1.414L11.414 12H15a1 1 0 100-2H11.414l1.293-1.293a1 1 0 10-1.414-1.414l-2 2z"/>
-                        </svg>
-                        Categories
-                    </button>
-                    <div id="filterDropdown" class="z-10 hidden w-48 p-3 bg-white rounded-lg shadow">
-                        <h6 class="mb-3 text-sm font-medium text-gray-900">Choose brand</h6>
-                        <ul class="space-y-2 text-sm" aria-labelledby="filterDropdownButton">
-                            <li class="flex items-center">
-                                <input id="apple" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
-                                <label for="apple" class="ml-2 text-sm font-medium text-gray-900">Apple (56)</label>
-                            </li>
-                            <li class="flex items-center">
-                                <input id="fitbit" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
-                                <label for="fitbit" class="ml-2 text-sm font-medium text-gray-900">Microsoft (16)</label>
-                            </li>
-                            <li class="flex items-center">
-                                <input id="razor" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
-                                <label for="razor" class="ml-2 text-sm font-medium text-gray-900">Razor (49)</label>
-                            </li>
-                            <li class="flex items-center">
-                                <input id="nikon" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
-                                <label for="nikon" class="ml-2 text-sm font-medium text-gray-900">Nikon (12)</label>
-                            </li>
-                            <li class="flex items-center">
-                                <input id="benq" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
-                                <label for="benq" class="ml-2 text-sm font-medium text-gray-900">BenQ (74)</label>
-                            </li>
-                        </ul>
-                    </div>
+                <div id="filterDropdown" class="z-10 hidden w-48 p-3 bg-white rounded-lg shadow">
+                    <h6 class="mb-3 text-sm font-medium text-gray-900">Choose brand</h6>
+                    <ul class="space-y-2 text-sm" aria-labelledby="filterDropdownButton">
+                        <li class="flex items-center">
+                            <input id="apple" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
+                            <label for="apple" class="ml-2 text-sm font-medium text-gray-900">Apple (56)</label>
+                        </li>
+                        <li class="flex items-center">
+                            <input id="fitbit" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
+                            <label for="fitbit" class="ml-2 text-sm font-medium text-gray-900">Microsoft (16)</label>
+                        </li>
+                        <li class="flex items-center">
+                            <input id="razor" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
+                            <label for="razor" class="ml-2 text-sm font-medium text-gray-900">Razor (49)</label>
+                        </li>
+                        <li class="flex items-center">
+                            <input id="nikon" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
+                            <label for="nikon" class="ml-2 text-sm font-medium text-gray-900">Nikon (12)</label>
+                        </li>
+                        <li class="flex items-center">
+                            <input id="benq" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500">
+                            <label for="benq" class="ml-2 text-sm font-medium text-gray-900">BenQ (74)</label>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -101,7 +90,7 @@ if(isset($_POST['add_category'])){
                 <tr>
                     <th scope="col" class="px-4 py-3"></th>
                     <th scope="col" class="px-4 py-1">SKU</th>
-                    <th scope="col" class="px-4 py-3">Product</th>
+                    <!-- <th scope="col" class="px-4 py-3">Product</th> -->
                     <th scope="col" class="px-4 py-3">Name</th>
                     <th scope="col" class="px-4 py-3">Stock</th>
                     <th scope="col" class="px-4 py-3">Price</th>
@@ -121,19 +110,19 @@ if(isset($_POST['add_category'])){
                                 </div>
                             </td>
                             <td class="px-4 py-3"><?php echo $row['sku'];?></td>
-                            <th scope="row" class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-nowrap">
+                            <!-- <th scope="row" class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-nowrap">
                                 <img src="https://flowbite.s3.amazonaws.com/blocks/application-ui/devices/apple-iphone-14.png" alt="iMac Front Image" class="w-auto h-8 mr-3">
-                            </th>
+                            </th> -->
                             <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap"><?php echo $row['name'];?></th>
                             <td class="px-4 py-3"><?php echo $row['stock'];?></td>
                             <td class="px-4 py-3">$<?php echo $row['price'];?></td>
                             <td class="px-4 py-3 flex items-center justify-end">
-                                <button id="apple-imac-27-dropdown-button" data-dropdown-toggle="apple-imac-27-dropdown" class="inline-flex items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none" type="button">
+                                <button id="control-<?php echo $row['sku'];?>-dropdown-button" data-dropdown-toggle="control-<?php echo $row['sku'];?>-dropdown" class="inline-flex items-center p-0.5 text-sm font-medium text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none" type="button">
                                     <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
                                     </svg>
                                 </button>
-                                <div id="apple-imac-27-dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
+                                <div id="control-<?php echo $row['sku'];?>-dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
                                     <div class="py-1">
                                         <a href="/admin/addProduct?edit=<?php echo $row['sku'];?>" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Edit</a>
                                     </div>
