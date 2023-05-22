@@ -250,7 +250,7 @@ if(isset($_POST['add_category'])){
                 </div>
                 <!-- Modal body -->
                 <div class="p-6 space-y-6">
-                    <a href="/admin/addCategory" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-primary-200 hover:bg-primary-800">Add Category</a>
+                    <a href="/admin/addCategory" class="inline-flex items-center px-5 py-2.5 sm:mt-6 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-primary-200 hover:bg-primary-800">Add Category</a>
                     <table class="w-full text-sm text-left text-gray-500">
                         <thead class="text-xs text-gray-700 uppercase bg-gray-50">
                         <tr>
