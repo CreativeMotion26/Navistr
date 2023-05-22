@@ -1,3 +1,10 @@
+<?php
+require_once __DIR__ . '/inc/functions.inc.php';
+if(isset($_GET['edit'])){
+    $result = mysqli_query($conn,"SELECT sku, name, price, description, stock FROM product WHERE sku='" . mysqli_real_escape_string($conn, $_GET['edit']) . "'");
+    $product = mysqli_fetch_assoc($result)[0];
+    var_dump($product);
+}?>
 <!doctype html>
 <html lang="en">
 <head>
