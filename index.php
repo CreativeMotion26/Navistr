@@ -16,6 +16,7 @@
                      <h1 class="mb-6 text-4xl font-bold">Discover Fine Leather Goods from Italy</h1>
                      <h3 class="mb-8 text-1mb text-orange-300">Explore our collection of handcrafted leather bags and luxury stationaries made in Venice.</h3>
                      <button type="button" class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200" data-te-ripple-init data-te-ripple-color="light"> Shop now </button>
+
                   </div>
                </div>
             </div>
@@ -32,6 +33,7 @@
                            <h4 class="text-orange-400 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
                            <h1 class="text-4xl md:text-5xl font-bold mb-4">Our History</h1>
                            <p class="font-normal text-base leading-6 text-gray-600">Florentine Australia was conceived after visiting fine paper shops traditional to Florence. It was considered that Sydney deserved to experience the fine quality of stationery and accessories only found in artisan workshops of Florence and Venice and Florentine Australia was born.</p>
+
                         </div>
                         <div class="w-full lg:w-8/12">
                            <img class="w-full h-full rounded-xl" src="assets/images/hero.jpg" alt="A group of People" />
@@ -201,6 +203,7 @@
                               <div>
                                  <input type="checkbox" id="ColorSg" class="sr-only" />
                                  <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
+
                                  <span class="sr-only"> Space Gray </span>
                                  </label>
                               </div>
@@ -270,6 +273,7 @@
                               <div>
                                  <input type="checkbox" id="ColorSg" class="sr-only" />
                                  <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
+
                                  <span class="sr-only"> Space Gray </span>
                                  </label>
                               </div>
@@ -304,8 +308,7 @@
                         </form>
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
-                        <h3
-                           class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl">Small bag
+                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl">Small bag
                         </h3>
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
@@ -361,6 +364,7 @@
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
                         <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl" >Big bag</h3>
+
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
                   </div>
@@ -400,6 +404,7 @@
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
                         <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl" >Leather Bag</h3>
+
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
                   </div>
@@ -472,6 +477,7 @@
                      </div>
                      <div class="flex justify-between mt-3 text-sm">
                         <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl"> Nice bag</h3>
+
                         <p class="text-gray-900 font-semibold text-xl">$299</p>
                      </div>
                   </div>

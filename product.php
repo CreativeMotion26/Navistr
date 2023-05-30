@@ -8,6 +8,7 @@
       <?php require __DIR__ . '/inc/header.inc.php';?>
          <section class = "mx-auto flex max-w-2xl items-center space-x-2 px-10 sm:px-10 lg:max-w-4xl lg:px-8py-0 container mx-auto bg-white py-2 border-t border-orange-400">
          <div class="relative mx-auto max-w-screen-xl px-10 py-8">
+
             <div>
                <h1 class="text-3xl text-orange-500 font-bold lg:text-3xl px-5">Simple Basic Bag</h1>
             </div>
@@ -55,7 +56,10 @@
                      </svg>
                   </div>
                </div>
+<<<<<<< Updated upstream
                <div class = "flex content-center items-center  justify-center">
+=======
+>>>>>>> Stashed changes
                <ul class="mt-1 flex gap-1">
                   <li>
                      <img alt="Tee" src="assets/images/i1.jpg" class="h-16 w-16 rounded-md object-cover"/>
@@ -71,9 +75,13 @@
                   </li>
                </ul>
                </div>
+<<<<<<< Updated upstream
                </div>
             </div>
             <section>
+=======
+               <section>
+>>>>>>> Stashed changes
                <div class="lg:w-full w-full lg:pl-10 lg:py-6 mt-2 lg:mt-0">
                      <h2 class="text-sm title-font text-gray-500 tracking-widest pb-3">BRAND NAME</h2>
                      <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1>
@@ -170,35 +178,30 @@
          </div>
          <div></div>
       </section>
-       <div class="container my-2 px-6 mx-auto py-0 mx-auto bg-white py-4 border-t border-orange-400">
-            <div class="2xl:container 2xl:mx-auto md:py-10 py-2">
-               <div class="bg-gray-50 dark:bg-gray-800 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-2 md:px-12 px-4">
+      <div class="container my-6 px-6 mx-auto">
+            <div class="2xl:container 2xl:mx-auto md:py-10 py-3">
+               <div class="bg-gray-50 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-2 md:px-12 px-4">
                   <div class="">
-                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1.svg" alt="delivery">
-                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1dark.svg" alt="delivery">
-                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Delivery</h3>
-                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Free worldwide delivery over orders above $100</p>
+                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1.svg" alt="delivery">
+                     <h3 class="text-xl leading-5 font-semibold text-orange-500 lg:mt-10 mt-8">Delivery</h3>
+                     <p class="text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Free worldwide delivery over orders above $100</p>
                   </div>
                   <div class="">
-                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2.svg" alt="Customer Care">
-                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2dark.svg" alt="Customer Care">
-                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Customer Care</h3>
-                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Our customer care is available 24/7 at <span class="font-semibold cursor-pointer">(02) 9264 6055</span> and <span class="font-semibold cursor-pointer">sales@florentineaustralia.com</span></p>
+                     <img  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2.svg" alt="Customer Care">
+                     <h3 class="text-xl leading-5 font-semibold text-orange-500 lg:mt-10 mt-8">Customer Care</h3>
+                     <p class="text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Our customer care is available 24/7 at <span class="font-semibold cursor-pointer">(02) 9264 6055</span> and <span class="font-semibold cursor-pointer">sales@florentineaustralia.com</span></p>
                   </div>
                   <div class="">
-                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3.svg" alt="Recycle">
-                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3dark.svg" alt="Recycle">
-                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Recycle</h3>
-                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">All out products are 100 percent recycable</p>
+                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3.svg" alt="Recycle">
+                     <h3 class="text-xl leading-5 font-semibold text-orange-500 lg:mt-10 mt-8">Recycle</h3>
+                     <p class="text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">All out products are 100 percent recycable</p>
                   </div>
                   <div class="">
-                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4.svg" alt="Secure Payment">
-                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4dark.svg" alt="Secure Payment">
-                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Secure Payment</h3>
-                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Transaction process has end to end encryption</p>
+                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4.svg" alt="Secure Payment">
+                     <h3 class="text-xl leading-5 font-semibold text-orange-500 lg:mt-10 mt-8">Secure Payment</h3>
+                     <p class="text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Transaction process has end to end encryption</p>
                   </div>
                </div>
-            </div>
             </div>
          </main>
       <?php require __DIR__ . '/inc/footer.inc.php';?>

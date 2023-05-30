@@ -72,30 +72,26 @@
          </section>
          <div class="container my-6 px-6 mx-auto">
             <div class="2xl:container 2xl:mx-auto md:py-10 py-3">
-               <div class="bg-gray-50 dark:bg-gray-800 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-2 md:px-12 px-4">
+               <div class="bg-gray-50 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-2 md:px-12 px-4">
                   <div class="">
-                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1.svg" alt="delivery">
-                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1dark.svg" alt="delivery">
-                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Delivery</h3>
-                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Free worldwide delivery over orders above $100</p>
+                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1.svg" alt="delivery">
+                     <h3 class="text-xl leading-5 font-semibold text-orange-500 lg:mt-10 mt-8">Delivery</h3>
+                     <p class="text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Free worldwide delivery over orders above $100</p>
                   </div>
                   <div class="">
-                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2.svg" alt="Customer Care">
-                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2dark.svg" alt="Customer Care">
-                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Customer Care</h3>
-                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Our customer care is available 24/7 at <span class="font-semibold cursor-pointer">(02) 9264 6055</span> and <span class="font-semibold cursor-pointer">sales@florentineaustralia.com</span></p>
+                     <img  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2.svg" alt="Customer Care">
+                     <h3 class="text-xl leading-5 font-semibold text-orange-500 lg:mt-10 mt-8">Customer Care</h3>
+                     <p class="text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Our customer care is available 24/7 at <span class="font-semibold cursor-pointer">(02) 9264 6055</span> and <span class="font-semibold cursor-pointer">sales@florentineaustralia.com</span></p>
                   </div>
                   <div class="">
-                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3.svg" alt="Recycle">
-                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3dark.svg" alt="Recycle">
-                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Recycle</h3>
-                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">All out products are 100 percent recycable</p>
+                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3.svg" alt="Recycle">
+                     <h3 class="text-xl leading-5 font-semibold text-orange-500 lg:mt-10 mt-8">Recycle</h3>
+                     <p class="text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">All out products are 100 percent recycable</p>
                   </div>
                   <div class="">
-                     <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4.svg" alt="Secure Payment">
-                     <img class="dark:block hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4dark.svg" alt="Secure Payment">
-                     <h3 class="text-xl leading-5 dark:text-white font-semibold text-orange-500 lg:mt-10 mt-8">Secure Payment</h3>
-                     <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Transaction process has end to end encryption</p>
+                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4.svg" alt="Secure Payment">
+                     <h3 class="text-xl leading-5 font-semibold text-orange-500 lg:mt-10 mt-8">Secure Payment</h3>
+                     <p class="text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Transaction process has end to end encryption</p>
                   </div>
                </div>
             </div>

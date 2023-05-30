@@ -7,6 +7,7 @@ if(isset($_POST['add_product'])){
     $sku = mysqli_real_escape_string($conn, $_POST['sku']);
     $stock = mysqli_real_escape_string($conn, $_POST['stock']);
     mysqli_query($conn, "REPLACE INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
+<<<<<<< Updated upstream
 }
 if(isset($_GET['delete'])){
     $sku = mysqli_real_escape_string($conn, $_GET['delete']);
@@ -19,6 +20,8 @@ if(isset($_GET['delete_category'])){
 if(isset($_POST['add_category'])){
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     mysqli_query($conn, "REPLACE INTO categories (name) VALUES ('$name')");
+=======
+>>>>>>> Stashed changes
 }
 ?>
 <!doctype html>
@@ -99,8 +102,13 @@ if(isset($_POST['add_category'])){
                     </th>
                 </tr>
                 </thead>
+<<<<<<< Updated upstream
                 <tbody id="table_content">
                     <?php $result = mysqli_query($conn,"SELECT sku, name, price, description, stock FROM product");
+=======
+                <tbody>
+                    <?php $result = mysqli_query($conn, "SELECT sku, name, price, description, stock FROM product");
+>>>>>>> Stashed changes
                     while($row = mysqli_fetch_assoc($result)){?>
                         <tr class="border-b">
                             <td class="w-4 px-4 py-3">
