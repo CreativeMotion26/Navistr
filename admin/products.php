@@ -99,13 +99,8 @@ if(isset($_POST['add_category'])){
                     </th>
                 </tr>
                 </thead>
-<<<<<<< Updated upstream
                 <tbody id="table_content">
                     <?php $result = mysqli_query($conn,"SELECT sku, name, price, description, stock FROM product");
-=======
-                <tbody>
-                    <?php $result = mysqli_query($conn, "SELECT sku, name, price, description, stock FROM product");
->>>>>>> Stashed changes
                     while($row = mysqli_fetch_assoc($result)){?>
                         <tr class="border-b">
                             <td class="w-4 px-4 py-3">
