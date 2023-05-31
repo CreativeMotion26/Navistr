@@ -1,13 +1,12 @@
 <?php
 require_once __DIR__ . '/inc/functions.inc.php';
-if(isset($_POST['add_product'])){
+if(isset($_POST['add_product'])) {
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $description = mysqli_real_escape_string($conn, $_POST['description']);
     $price = mysqli_real_escape_string($conn, $_POST['price']);
     $sku = mysqli_real_escape_string($conn, $_POST['sku']);
     $stock = mysqli_real_escape_string($conn, $_POST['stock']);
     mysqli_query($conn, "REPLACE INTO product (name, description, price, sku, stock) VALUES ('$name', '$description', '$price', '$sku', '$stock')");
-<<<<<<< Updated upstream
 }
 if(isset($_GET['delete'])){
     $sku = mysqli_real_escape_string($conn, $_GET['delete']);
@@ -20,8 +19,6 @@ if(isset($_GET['delete_category'])){
 if(isset($_POST['add_category'])){
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     mysqli_query($conn, "REPLACE INTO categories (name) VALUES ('$name')");
-=======
->>>>>>> Stashed changes
 }
 ?>
 <!doctype html>
