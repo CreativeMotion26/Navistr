@@ -1,10 +1,11 @@
 <?php
-$settings = json_decode(file_get_contents(__DIR__ . '/../db/settings.json'), true);
-
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
 $database = [
-    'host' => '185.252.233.213',
-    'user' => 'YwUetX47DLgkXyCs',
-    'password' => 'Vj8Xpc_vqNj9DM.88d',
+    'host' => 'localhost',
+    'user' => 'florentine',
+    'password' => 'yHW5KqVtKTuzV&pLEjxMnrN3yn@ziyAEJgbyWqzKqKRs7Jdt%B',
     'database' => 'florentine',
 ];
 

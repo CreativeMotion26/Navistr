@@ -1,67 +1,27 @@
-<header>
-   <nav class="bg-white border-gray-200">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-         <a href="index.php" class="flex items-center">
-         <img src="assets/images/logo.png" class="max-h-20 p-2" alt="Flowbite Logo" /> 
-         </a>
-         <div class="flex md:order-2">
-            <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 mr-1" >
-               <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
-               </svg>
-               <span class="sr-only">Search</span>
-            </button>
-            <div class="relative hidden md:block">
-               <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                  <svg class="w-5 h-5 text-orange-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                     <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
-                  </svg>
-                  <span class="sr-only">Search icon</span>
-               </div>
-               <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search...">
-            </div>
-            <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-200" aria-controls="navbar-search" aria-expanded="false">
-               <span class="sr-only">Open menu</span>
-               <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-               </svg>
-            </button>
-         </div>
-         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
-            <div class="relative mt-3 md:hidden">
-               <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                  <svg class="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                     <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
-                  </svg>
-               </div>
-               <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search...">
-            </div>
-            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
-               <li>
-                  <a href="index.php" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-orange-500 md:p-0" aria-current="page">Home</a>
-               </li>
-               <li>
-                  <a href="history.php" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 md:p-0">About</a>
-               </li>
-               <li>
-                  <a href="products.php" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-500 md:p-0">Products</a>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </nav>
-   <div data-dial-init class="fixed right-4 bottom-6 group flex z-30">
-      <a class="inline-block no-underline hover:text-black" href="wishlist.php">
-         <button type="button" data-dial-toggle="speed-dial-menu-default" aria-controls="speed-dial-menu-default" aria-expanded="false" class="flex items-center justify-center text-white bg-orange-500 rounded-full w-14 h-14 hover:bg-orange-600 focus:ring-4 focus:ring-blue-300 focus:outline-none">
-            <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-               <path d="M21,7H7.462L5.91,3.586C5.748,3.229,5.392,3,5,3H2v2h2.356L9.09,15.414C9.252,15.771,9.608,16,10,16h8 c0.4,0,0.762-0.238,0.919-0.606l3-7c0.133-0.309,0.101-0.663-0.084-0.944C21.649,7.169,21.336,7,21,7z M17.341,14h-6.697L8.371,9 h11.112L17.341,14z" />
-               <circle cx="10.5" cy="18.5" r="1.5" />
-               <circle cx="17.5" cy="18.5" r="1.5" />
-            </svg>
-            <span class="indicator-item badge">2</span>
-         </button>
-         <span class="sr-only">Open actions menu</span> 
-      </a>
-   </div> 
+<header class="text-white body-font bg-gradient-to-b from-indigo-700 to-indigo-600">
+  <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+    <a href="#" class="absolute">
+      <img src="assets/images/Nlogo2.png" class="w-2/5 h-2/5 mt-4" alt="Logo">
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a href="#" class="mr-5 hover:text-gray-900">First Link</a>
+      <a href="#" class="mr-5 hover:text-gray-900">Second Link</a>
+      <a href="#" class="mr-5 hover:text-gray-900">Third Link</a>
+    </nav>
+    <button class="inline-flex items-center bg-orange-500 border-0 py-1 px-3 focus:outline-none hover:bg-orange-600 rounded text-base mt-4 md:mt-0">Contact us
+    </button>
+  </div>
 </header>
+<div class="h-40 overflow-hidden">
+      <div class="flex inset-0 bg-gradient-to-r from-indigo-600 to-purple-600"></div>
+  <svg viewBox="0 20 500 160" preserveAspectRatio="none" class="h-3/4 w-full -mt-34">
+    <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" class="stroke-none fill-indigo-300"></path>
+  </svg>
 
+  <svg viewBox="0 00 500 150" preserveAspectRatio="none" class="h-3/4 w-full -mt-40">
+    <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" class="stroke-none fill-indigo-500"></path>
+  </svg>
+  <svg viewBox="0 00 500 150" preserveAspectRatio="none" class="h-full w-full -mt-40">
+    <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" class="stroke-none fill-indigo-600"></path>
+  </svg>
+</div>

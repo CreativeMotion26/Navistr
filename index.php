@@ -4,531 +4,214 @@
    <head> <?php require __DIR__ . '/inc/head.inc.php';?> </head>
    <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
       <?php require __DIR__ . '/inc/header.inc.php';?> 
-      <section style="background-image: url('/assets/images/Main.jpg')" class="flex align-center justify-center flex-col h-[60vh] bg-cover bg-center bg-no-repeat bg-contain text-center text-white bg-gradient-to-t from-black/75 via-black/0 ">
-         <div class="relative overflow-hidden bg-cover bg-no-repeat" style="
-            background-position: 50%;
-            background-image: url('assets/images/Main.jpg');
-            height: 100%;
-            ">
-            <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.35)">
-               <div class="flex h-full items-center justify-center">
-                  <div class="px-6 text-center text-white md:px-12">
-                     <h1 class="mb-6 text-4xl font-bold">Discover Fine Leather Goods from Italy</h1>
-                     <h3 class="mb-8 text-1mb text-orange-300">Explore our collection of handcrafted leather bags and luxury stationaries made in Venice.</h3>
-                     <button type="button" class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200" data-te-ripple-init data-te-ripple-color="light"> Shop now </button>
-
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <section class="py-2 container mx-auto bg-white py-4 border-t border-orange-400 mt-6 ">
-         <div class="py-4 px-20">
-            <div class="PageWidth PageWidth--large relative">
-               <div class="media absolute inset-0 flex justify-center items-center"></div>
-               <div class="w-full max-w-full justify-center">
-                  <div class="textContent-cover textContent-background py-4 flex flex-col items-center">
-                     <div class="flex flex-col lg:flex-row justify-between gap-8">
-                        <div class="w-full lg:w-5/12 flex flex-col justify-center">
-                           <h4 class="text-orange-400 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
-                           <h1 class="text-4xl md:text-5xl font-bold mb-4">Our History</h1>
-                           <p class="font-normal text-base leading-6 text-gray-600">Florentine Australia was conceived after visiting fine paper shops traditional to Florence. It was considered that Sydney deserved to experience the fine quality of stationery and accessories only found in artisan workshops of Florence and Venice and Florentine Australia was born.</p>
-
-                        </div>
-                        <div class="w-full lg:w-8/12">
-                           <img class="w-full h-full rounded-xl" src="assets/images/hero.jpg" alt="A group of People" />
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <section class="py-0 container mx-auto bg-white py-4 border-t border-orange-400">
-         <div class="py-4">
-            <div class="PageWidth  noBackgroundContainer PageWidth--large relative">
-               <div class=" absolute inset-0 flex justify-center items-center"></div>
-               <div class=" w-full max-w-full justify-center">
-                  <div class="py-6 flex flex-col items-center">
-                     <h4 class="text-orange-400 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
-                     <h1 class="text-4xl md:text-5xl font-bold mb-4">Florentine Essentials</h1>
-                     <div></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <section>
-         <div class="grid grid-cols-2 gap-4 px-8">
-            <a href="category.php" class="relative h-48 bg-center bg-cover rounded-xl" style="background-image: url('assets/images/1.jpg')">
-               <div class="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
-               <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Leather</h1>
-               <img class="w-full h-full object-cover absolute top-0 left-0 bg-black opacity-0 hover:opacity-30 transition-opacity duration-300 rounded-xl">
+      <section class="bg-white">
+         <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-8 sm:px-6 lg:px-8 lg:pt-8">
+         <div class="text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-5xl">Navigate Your <span class="text-indigo-600">journey</span></h2>
+            <p class="mx-auto mt-4 max-w-sm text-gray-500">
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maiores
+               ipsum eos temporibus ea nihil.
+            </p>
+            <a href="#" class="mt-8 inline-block rounded-full border border-indigo-600 px-12 py-3 text-sm font-medium text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500">
+            Get Started
             </a>
-            <a href="category.php" class="relative h-48 bg-center bg-cover rounded-xl" style="background-image: url('assets/images/2.jpg')">
-               <div class="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
-               <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Calligraphy</h1>
-               <img class="w-full h-full object-cover absolute top-0 left-0 bg-black opacity-0 hover:opacity-30 transition-opacity duration-300 rounded-xl">
-            </a>
-            <a href="category.php" class="relative h-48 bg-center bg-cover rounded-xl" style="background-image: url('assets/images/3.jpg')">
-               <div class="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
-               <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Journals</h1>
-               <img class="w-full h-full object-cover absolute top-0 left-0 bg-black opacity-0 hover:opacity-30 transition-opacity duration-300 rounded-xl">
-            </a>
-            <a href="category.php" class="relative h-48 bg-center bg-cover rounded-xl" style="background-image: url('assets/images/4.jpg')">
-               <div class="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
-               <h1 class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">Stationeries</h1>
-               <img class="w-full h-full object-cover absolute top-0 left-0 bg-black opacity-0 hover:opacity-30 transition-opacity duration-300 rounded-xl">
-            </a>
-            <div></div>
          </div>
       </section>
-      <section class="py-0 container mx-auto bg-white py-4 border-t border-orange-400">
-         <div class="py-2">
-            <div class="PageWidth --noBackgroundContainer PageWidth--large relative">
-               <div class="media absolute inset-0 flex justify-center items-center"></div>
-               <div class="textContentContainer z-10 w-full max-w-full justify-center">
-                  <div class="textContent-cover textContent-background py-2 flex flex-col items-center">
-                     <h4 class="text-orange-400 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
-                     <h1 class="text-4xl md:text-5xl font-bold mb-4">Florentine Picks</h1>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <section>
-         <section class="text-gray-600 body-font">
-            <div class="container px-5 py-6 mx-auto">
-               <div class="flex flex-wrap -m-4">
-                  <div class="p-4 md:w-1/3">
-                   <a href=product.php>
-                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/g.jpg" alt="blog">
-                        <div class="p-6">
-                           <h2 class="tracking-widest text-xs title-font font-medium text-orange-400 mb-1">Leather</h2>
-                           <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Best Leather Bag</h1>
-                           <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                           <div class="flex items-center flex-wrap ">
-                              <a class="text-orange-500 inline-flex items-center md:mb-2 lg:mb-0">
-                                 Explore 
-                                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M5 12h14"></path>
-                                    <path d="M12 5l7 7-7 7"></path>
-                                 </svg>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                   </a>
-                  </div>
-                  <div class="p-4 md:w-1/3">
-                     <a href=product.php>
-                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/i2.jpg" alt="blog">
-                        <div class="p-6">
-                           <h2 class="tracking-widest text-xs title-font font-medium text-orange-400 mb-1">Journals</h2>
-                           <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Journal</h1>
-                           <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                           <div class="flex items-center flex-wrap">
-                              <a class="text-orange-500 inline-flex items-center md:mb-2 lg:mb-0">
-                                 Explore 
-                                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M5 12h14"></path>
-                                    <path d="M12 5l7 7-7 7"></path>
-                                 </svg>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                   </a>
-                  </div>
-                  <div class="p-4 md:w-1/3">
-                   <a href=product.php>
-                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/i1.jpg" alt="blog">
-                        <div class="p-6">
-                           <h2 class="tracking-widest text-xs title-font font-medium text-orange-400 mb-1">Calligraphy</h2>
-                           <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars Pen</h1>
-                           <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                           <div class="flex items-center flex-wrap ">
-                              <a class="text-orange-500 inline-flex items-center md:mb-2 lg:mb-0">
-                                Explore 
-                                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M5 12h14"></path>
-                                    <path d="M12 5l7 7-7 7"></path>
-                                 </svg>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                    </a>
-                  </div>
-               </div>
-            </div>
-         </section>
-      </section>
-      <main class="container mx-auto bg-white py-4 border-t border-orange-400">
-         <section>
-            <div class="container py-2">
-               <div class="PageWidth PageWidth--large relative">
-                  <div class=" inset-0 flex justify-center items-center"></div>
-                  <div class="-textContentContainer z-10 w-full max-w-full justify-center">
-                     <div class="-textContent -textContent-cover -textContent-background py-8 flex flex-col items-center" style="--textImageMaxWidthMobile:300px; --textImageMaxWidthDesktop:800px;">
-                        <h4 class="text-orange-400 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
-                        <h1 class="text-4xl md:text-5xl font-bold mb-4 ">Florentine Product</h1>
-                        <div class="cta--container"> </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8 ">
-            <div>
-               <a href="product.php" class="block group">
-                  <img
-                     src="assets/images/item3.jpg"
-                     alt=""
-                     class="h-[250px] w-full object-cover sm:h-[300px] rounded-xl"
-                     />
-                  <div class="mt-1.5">
-                     <p class="text-xs text-gray-500">Space Grey</p>
-                     <div class="mt-1.5 flex gap-1">
-                        <form>
-                           <fieldset>
-                              <legend class="sr-only">Color</legend>
-                           </fieldset>
-                           <div
-                              class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
-                              >
-                              <div>
-                                 <input type="checkbox" id="ColorSg" class="sr-only" />
-                                 <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
+<section class="bg-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+        Trusted by eCommerce Businesses
+      </h2>
 
-                                 <span class="sr-only"> Space Gray </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorS" class="sr-only" />
-                                 <label
-                                    for="ColorS"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Silver </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorP" class="sr-only" />
-                                 <label
-                                    for="ColorP"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorG" class="sr-only" />
-                                 <label
-                                    for="ColorG"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorSb" class="sr-only" />
-                                 <label
-                                    for="ColorSb"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl">leather bag</h3>
-                        <p class="text-gray-900 font-semibold text-xl">$299</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div>
-               <a href="product.php" class="block group">
-                  <img
-                     src="assets/images/item6.jpg"
-                     alt=""
-                     class="h-[250px] w-full object-cover sm:h-[300px] rounded-xl"
-                     />
-                  <div class="mt-1.5">
-                     <p class="text-xs text-gray-500">Space Grey</p>
-                     <div class="mt-1.5 flex gap-1">
-                        <form>
-                           <fieldset>
-                              <legend class="sr-only">Color</legend>
-                           </fieldset>
-                           <div
-                              class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
-                              >
-                              <div>
-                                 <input type="checkbox" id="ColorSg" class="sr-only" />
-                                 <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
+      <p class="mt-4 text-gray-500 sm:text-xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores
+        laborum labore provident impedit esse recusandae facere libero harum
+        sequi.
+      </p>
+    </div>
 
-                                 <span class="sr-only"> Space Gray </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorS" class="sr-only" />
-                                 <label
-                                    for="ColorS"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Silver </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorP" class="sr-only" />
-                                 <label
-                                    for="ColorP"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorG" class="sr-only" />
-                                 <label
-                                    for="ColorG"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl">Small bag
-                        </h3>
-                        <p class="text-gray-900 font-semibold text-xl">$299</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div>
-               <a href="product.php" class="block group">
-                  <img
-                     src="assets/images/item6.jpg"
-                     alt=""
-                     class="h-[250px] w-full object-cover sm:h-[300px] rounded-xl"
-                     />
-                  <div class="mt-1.5">
-                     <p class="text-xs text-gray-500">Space Grey</p>
-                     <div class="mt-1.5 flex gap-1">
-                        <form>
-                           <fieldset>
-                              <legend class="sr-only">Color</legend>
-                           </fieldset>
-                           <div
-                              class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75"
-                              >
-                              <div>
-                                 <input type="checkbox" id="ColorP" class="sr-only" />
-                                 <label
-                                    for="ColorP"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorG" class="sr-only" />
-                                 <label
-                                    for="ColorG"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorSb" class="sr-only" />
-                                 <label
-                                    for="ColorSb"
-                                    class="block h-4 w-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
-                                    >
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl" >Big bag</h3>
+    <div class="mt-8 sm:mt-12">
+      <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+          <dt class="order-last text-lg font-medium text-gray-500"> Total Sales</dt>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl"> $4.8m</dd>
+        </div>
+        <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+          <dt class="order-last text-lg font-medium text-gray-500"> Official Addons
+          </dt>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">24</dd>
+        </div>
+        <div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+          <dt class="order-last text-lg font-medium text-gray-500">Total Addons</dt>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">86</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+<section
+  class="overflow-hidden bg-white sm:grid sm:grid-cols-2 sm:items-center"
+>
+  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+    <div
+      class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
+    >
+      <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+      </h2>
 
-                        <p class="text-gray-900 font-semibold text-xl">$299</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div>
-               <a href="product.php" class="block group">
-                  <img src="assets/images/item4.jpg" class="h-[250px] w-full object-cover sm:h-[300px] rounded-xl"/>
-                  <div class="mt-1.5">
-                     <p class="text-xs text-gray-500">Space Grey</p>
-                     <div class="mt-1.5 flex gap-1">
-                        <form>
-                           <fieldset>
-                              <legend class="sr-only">Color</legend>
-                           </fieldset>
-                           <div class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75">
-                              <div>
-                                 <input type="checkbox" id="ColorSg" class="sr-only" />
-                                 <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
-                                 <span class="sr-only"> Space Gray </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorS" class="sr-only" />
-                                 <label for="ColorS" class="block h-4 w-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100">
-                                 <span class="sr-only"> Silver </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorP" class="sr-only" />
-                                 <label for="ColorP" class="block h-4 w-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100">
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl" >Leather Bag</h3>
+      <p class="hidden text-gray-500 md:mt-4 md:block">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
+        tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et
+      </p>
 
-                        <p class="text-gray-900 font-semibold text-xl">$299</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div>
-               <a href="product.php" class="block group">
-                  <img src="assets/images/item3.jpg" alt="" class="h-[250px] w-full object-cover sm:h-[300px] rounded-xl"/>
-                  <div class="mt-1.5">
-                     <p class="text-xs text-gray-500">Space Grey</p>
-                     <div class="mt-1.5 flex gap-1">
-                        <form>
-                           <fieldset>
-                              <legend class="sr-only">Color</legend>
-                           </fieldset>
-                           <div class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75">
-                              <div>
-                                 <input type="checkbox" id="ColorSg" class="sr-only" />
-                                 <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
-                                 <span class="sr-only"> Space Gray </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorS" class="sr-only" />
-                                 <label for="ColorS" class="block h-4 w-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100">
-                                 <span class="sr-only"> Silver </span>
-                                 </label>
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl">Hand bag</h3>
-                        <p class="text-gray-900 font-semibold text-xl">$299</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div>
-               <a href="product.php" class="block group">
-                  <img src="assets/images/item6.jpg" alt=" " class="h-[250px] w-full object-cover sm:h-[300px] rounded-xl" />
-                  <div class="mt-1.5">
-                     <p class="text-xs text-gray-500">Space Grey</p>
-                     <div class="mt-1.5 flex gap-1">
-                        <form>
-                           <fieldset>
-                              <legend class="sr-only">Color</legend>
-                           </fieldset>
-                           <div class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75">
-                              <div>
-                                 <input type="checkbox" id="ColorSg" class="sr-only" />
-                                 <label for="ColorSg" class="block h-4 w-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100">
-                                 <span class="sr-only"> Space Gray </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorP" class="sr-only" />
-                                 <label for="ColorP" class="block h-4 w-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100">
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                              <div>
-                                 <input type="checkbox" id="ColorSb" class="sr-only" />
-                                 <label for="ColorSb" class="block h-4 w-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100">
-                                 <span class="sr-only"> Pink </span>
-                                 </label>
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="flex justify-between mt-3 text-sm">
-                        <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4 text-xl"> Nice bag</h3>
-
-                        <p class="text-gray-900 font-semibold text-xl">$299</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
-         </div>
-      </main>
-   </body>
-   <div class="container mx-auto bg-white py-8 border-t border-orange-400">
-      <section>
-         <div class="PageWidth PageWidth--large relative">
-            <div class=" inset-0 flex justify-center items-center"></div>
-            <div class="-textContentContainer z-10 w-full max-w-full justify-center">
-               <div class="-textContent -textContent-cover -textContent-background py-2 flex flex-col items-center">
-                  <h4 class="text-orange-400 font-semibold text-sm mb-2 uppercase tracking-widest">Reliable Classics</h4>
-                  <h1 class="text-4xl md:text-5xl font-bold mb-4 ">Contact</h1>
-               </div>
-            </div>
-         </div>
-      </section>
-      <div class="container my-8 px-2 mx-auto">
-         <section class="text-gray-600 body-font relative">
-            <div class="container px-5 mx-auto flex sm:flex-nowrap flex-wrap">
-               <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-                  <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps?q=Shop%2022,%202nd%20Floor,%20Queen%20Victoria%20Building,%20Sydney&z=13&output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
-                  <div class="bg-white relative flex flex-wrap py-3 rounded shadow-md">
-                     <div class="lg:w-1/2 px-6">
-                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                        <p class="mt-1">Shop 22, Level 2, QVB, 455 George St, Sydney NSW </p>
-                     </div>
-                     <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                        <a class="text-orange-500 leading-relaxed">sales@florentineaustralia.com</a>
-                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                        <p class="leading-relaxed">(02) 9264 6055</p>
-                        <p class="leading-relaxed">(452) 246 770</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                  <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact Us</h2>
-                  <p class="leading-relaxed mb-5 text-gray-600">Like what you see? Subscribe now for instant email updates. Get notified on the latest news, updates and offers right in your inbox. Enter your email address today.</p>
-                  <div class="relative mb-4"> <label for="name" class="leading-7 text-sm text-gray-600">Name</label> <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"> </div>
-                  <div class="relative mb-4"> <label for="email" class="leading-7 text-sm text-gray-600">Email</label> <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"> </div>
-                  <div class="relative mb-4"> <label for="message" class="leading-7 text-sm text-gray-600">Message</label> <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea> </div>
-                  <button class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">Contact</button>
-                  <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
-               </div>
-            </div>
-         </section>
+      <div class="mt-4 md:mt-8">
+        <a
+          href="#"
+          class="inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        >
+          Get Started Today
+        </a>
       </div>
-   </div>
+    </div>
+  </div>
+
+  <img
+    alt="Violin"
+    src="assets/images/Nback.jpg"
+    class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
+  />
+</section>
+<section>
+<div class="container my-24 mx-auto md:px-6">
+  <section class="mb-32 text-center">
+    <h2 class="mb-20 text-3xl font-bold"><span class="text-indigo-600">Why</span> is it so great?</h2>
+
+    <div class="grid lg:grid-cols-3 lg:gap-x-12">
+      <div class="mb-12 lg:mb-0">
+        <div
+          class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          <div class="flex justify-center">
+            <div class="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="blue" class="h-7 w-7">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+              </svg>
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-4 text-lg font-semibold text-indigo-600">Support 24/7</h5>
+            <p>
+              Laudantium totam quas cumque pariatur at doloremque hic quos
+              quia eius. Reiciendis optio minus mollitia rerum labore
+              facilis inventore voluptatem ad, quae quia sint.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12 lg:mb-0">
+        <div
+          class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          <div class="flex justify-center">
+            <div class="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="blue" class="h-7 w-7">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+              </svg>
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-4 text-lg font-semibold text-indigo-600">Safe and solid</h5>
+            <p>
+              Eum nostrum fugit numquam, voluptates veniam neque quibusdam
+              ullam aspernatur odio soluta, quisquam dolore animi mollitia a
+              omnis praesentium, expedita nobis!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="">
+        <div
+          class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          <div class="flex justify-center">
+            <div class="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="blue" class="h-7 w-7">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+              </svg>
+            </div>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-4 text-lg font-semibold text-indigo-600">Extremely fast</h5>
+            <p>
+              Enim cupiditate, minus nulla dolor cumque iure eveniet facere
+              ullam beatae hic voluptatibus dolores exercitationem? Facilis
+              debitis aspernatur amet nisi?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</section>
+      <section class="bg-gradient-to-t from-indigo-600 to-white">
+         <div class="relative flex flex-col-reverse px-4 py-16 mx-auto lg:block lg:flex-col lg:py-32 xl:py-48 md:px-8 sm:max-w-xl md:max-w-full">
+            <div class="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
+               <img src="https://kitwind.io/assets/kometa/laptop.png" class="object-cover object-right w-full h-auto lg:w-auto lg:h-full" alt="" />
+            </div>
+            <div class="relative flex justify-end max-w-xl mx-auto xl:pr-32 lg:max-w-screen-xl">
+               <div class="mb-16 lg:pr-5 lg:max-w-lg lg:mb-0">
+                  <div class="max-w-xl mb-6">
+                     <div>
+                        <p class="inline-block py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+                           Brand new
+                        </p>
+                     </div>
+                     <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                        We will bring your<br class="hidden md:block" />
+                        business
+                        <span class="inline-block text-deep-purple-accent-400">online</span>
+                     </h2>
+                     <p class="text-base text-gray-700 md:text-lg">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                     </p>
+                  </div>
+                  <form>
+                     <div class="flex flex-col md:flex-row">
+                        <input
+                           placeholder="Name"
+                           required=""
+                           type="text"
+                           class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                           />
+                        <input
+                           placeholder="Email"
+                           required=""
+                           type="text"
+                           class="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                           />
+                     </div>
+                     <div class="flex items-center mt-4">
+                        <button
+                           type="submit"
+                           class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                           >
+                        Subscribe
+                        </button>
+                        <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
    <?php require __DIR__ . '/inc/footer.inc.php';?>
 </html>
