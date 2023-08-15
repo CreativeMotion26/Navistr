@@ -4,9 +4,9 @@
       <img src="assets/images/Nlogo2.png" class="w-2/5 h-2/5 mt-4" alt="Logo">
     </a>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a href="#" class="mr-5 hover:text-gray-900">First Link</a>
-      <a href="#" class="mr-5 hover:text-gray-900">Second Link</a>
-      <a href="#" class="mr-5 hover:text-gray-900">Third Link</a>
+      <a href="#" class="mr-5 hover:text-gray-900">Home</a>
+      <a href="#" class="mr-5 hover:text-gray-900">Business</a>
+      <a href="#" class="mr-5 hover:text-gray-900">About us</a>
     </nav>
     <button class="inline-flex items-center bg-orange-500 border-0 py-1 px-3 focus:outline-none hover:bg-orange-600 rounded text-base mt-4 md:mt-0">Contact us
     </button>
